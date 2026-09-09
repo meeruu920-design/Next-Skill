@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './CareerPaths.css';
+import "./Careerpaths.css";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Navbar from './Navbar';
 import Footer from './Footer';
