@@ -1,0 +1,2224 @@
+[
+  {
+    "id": 1,
+    "icon": "fas fa-paint-brush",
+    "title": "UI/UX Design",
+    "desc": "Design intuitive apps and websites that people love to use.",
+    "category": "Design",
+    "details": {
+      "overview": "UI/UX designers shape how people interact with digital products by making them easy, enjoyable, and visually appealing.",
+      "skills": ["Figma", "Adobe XD", "Wireframing", "User Research", "Prototyping"],
+      "tools": ["Figma", "Sketch", "InVision", "Miro"],
+      "industries": ["Tech", "E-commerce", "Education", "Healthcare"],
+      "future": "High demand with digital-first businesses expanding globally.",
+      "challenges": ["Balancing user needs with business goals", "Keeping up with design trends"],
+      "salary": "Avg. $65k - $120k per year",
+      "learning": ["Google UX Design Certificate", "Coursera UI/UX Specialization", "Don’t Make Me Think (Book)"]
+    }
+  },
+  {
+    "id": 2,
+    "icon": "fas fa-code",
+    "title": "Frontend Development",
+    "desc": "Turn designs into powerful web experiences using HTML, CSS, and React.",
+    "category": "Development",
+    "details": {
+      "overview": "Frontend developers build the visual elements of websites and apps that users interact with.",
+      "skills": ["HTML", "CSS", "JavaScript", "React", "Next.js"],
+      "tools": ["VS Code", "GitHub", "Webpack", "Tailwind CSS"],
+      "industries": ["Software", "Startups", "E-commerce", "Media"],
+      "future": "Strong demand due to rapid web/app growth.",
+      "challenges": ["Browser compatibility", "Performance optimization"],
+      "salary": "Avg. $70k - $130k per year",
+      "learning": ["freeCodeCamp Frontend Track", "React Docs", "Frontend Masters"]
+    }
+  },
+  {
+    "id": 3,
+    "icon": "fas fa-brain",
+    "title": "AI & Data Science",
+    "desc": "Work with the future — analyze data, build models, and solve problems.",
+    "category": "Technology",
+    "details": {
+      "overview": "AI and data scientists extract insights from data and build intelligent systems to solve real-world problems.",
+      "skills": ["Python", "Machine Learning", "Deep Learning", "SQL", "Statistics"],
+      "tools": ["TensorFlow", "PyTorch", "Jupyter", "Pandas"],
+      "industries": ["Healthcare", "Finance", "E-commerce", "Research"],
+      "future": "One of the fastest-growing fields with endless opportunities.",
+      "challenges": ["Data privacy", "Bias in algorithms"],
+      "salary": "Avg. $90k - $150k per year",
+      "learning": ["Andrew Ng’s ML Course", "DataCamp", "Fast.ai"]
+    }
+  },
+  {
+    "id": 4,
+    "icon": "fas fa-robot",
+    "title": "Robotics Engineering",
+    "desc": "Design and build intelligent robots for industries and daily life.",
+    "category": "Technology",
+    "details": {
+      "overview": "Robotics engineers design, build, and program robots that can perform tasks in manufacturing, healthcare, and exploration.",
+      "skills": ["Robotics", "C++", "AI Integration", "IoT", "CAD"],
+      "tools": ["ROS", "MATLAB", "Arduino", "SolidWorks"],
+      "industries": ["Manufacturing", "Healthcare", "Aerospace"],
+      "future": "Automation is the next revolution, robotics will lead it.",
+      "challenges": ["High development costs", "Complex integrations"],
+      "salary": "Avg. $85k - $140k per year",
+      "learning": ["MIT Robotics Online", "Coursera Robotics Specialization"]
+    }
+  },
+  {
+    "id": 5,
+    "icon": "fas fa-bullhorn",
+    "title": "Digital Marketing",
+    "desc": "Promote brands online using social media and SEO strategies.",
+    "category": "Marketing",
+    "details": {
+      "overview": "Digital marketers create strategies to promote businesses online through SEO, social media, and paid ads.",
+      "skills": ["SEO", "Google Ads", "Content Marketing", "Analytics", "Copywriting"],
+      "tools": ["Google Analytics", "SEMRush", "Hootsuite", "Canva"],
+      "industries": ["E-commerce", "Media", "Startups"],
+      "future": "Businesses need strong online presence, marketing is booming.",
+      "challenges": ["Ad fatigue", "Constant algorithm changes"],
+      "salary": "Avg. $55k - $100k per year",
+      "learning": ["HubSpot Academy", "Google Digital Garage", "Neil Patel Blog"]
+    }
+  },
+  {
+    "id": 6,
+    "icon": "fas fa-dna",
+    "title": "Biotechnology",
+    "desc": "Develop solutions in healthcare, agriculture, and environment.",
+    "category": "Science",
+    "details": {
+      "overview": "Biotechnologists apply biological systems to create innovative solutions in medicine, food, and sustainability.",
+      "skills": ["Biology", "Genetics", "Lab Research", "Data Analysis"],
+      "tools": ["CRISPR", "Microscopes", "Lab Instruments"],
+      "industries": ["Healthcare", "Agriculture", "Pharma"],
+      "future": "Rapid growth in medical and agricultural innovations.",
+      "challenges": ["Ethical concerns", "High research costs"],
+      "salary": "Avg. $70k - $110k per year",
+      "learning": ["edX Biotech Programs", "HarvardX Life Sciences Courses"]
+    }
+  },
+  {
+    "id": 7,
+    "icon": "fas fa-chart-line",
+    "title": "Investment Banking",
+    "desc": "Help businesses grow with financial and investment advice.",
+    "category": "Finance",
+    "details": {
+      "overview": "Investment bankers assist businesses and governments in raising capital and managing finances.",
+      "skills": ["Finance", "Excel", "Risk Analysis", "Economics"],
+      "tools": ["Bloomberg Terminal", "Excel", "Tableau"],
+      "industries": ["Finance", "Banking", "Consulting"],
+      "future": "Banking and fintech continue to expand globally.",
+      "challenges": ["High stress", "Market volatility"],
+      "salary": "Avg. $90k - $200k per year",
+      "learning": ["CFA Program", "Wall Street Prep"]
+    }
+  },
+  {
+    "id": 8,
+    "icon": "fas fa-rocket",
+    "title": "Aerospace Engineering",
+    "desc": "Design aircraft, spacecraft, and futuristic transport systems.",
+    "category": "Science",
+    "details": {
+      "overview": "Aerospace engineers design, test, and improve aircraft and space vehicles.",
+      "skills": ["Physics", "CAD", "Propulsion Systems", "Mathematics"],
+      "tools": ["ANSYS", "SolidWorks", "MATLAB"],
+      "industries": ["Aviation", "Defense", "Space Exploration"],
+      "future": "Space exploration and aviation fuel new opportunities.",
+      "challenges": ["High R&D costs", "Safety concerns"],
+      "salary": "Avg. $95k - $160k per year",
+      "learning": ["NASA Open Learning", "Aerospace Online MSc"]
+    }
+  },
+  {
+    "id": 9,
+    "icon": "fas fa-microchip",
+    "title": "Cybersecurity",
+    "desc": "Protect organizations from hacking and digital threats.",
+    "category": "Technology",
+    "details": {
+      "overview": "Cybersecurity professionals defend systems from hackers and data breaches.",
+      "skills": ["Networking", "Linux", "Ethical Hacking", "Cryptography"],
+      "tools": ["Wireshark", "Metasploit", "Kali Linux"],
+      "industries": ["Tech", "Finance", "Government"],
+      "future": "Every company needs cybersecurity — demand is huge.",
+      "challenges": ["Evolving threats", "Constant upskilling required"],
+      "salary": "Avg. $80k - $140k per year",
+      "learning": ["CompTIA Security+", "CEH Certification", "TryHackMe"]
+    }
+  },
+  {
+    "id": 10,
+    "icon": "fas fa-language",
+    "title": "Linguistics & Translation",
+    "desc": "Bridge cultures by translating and analyzing languages.",
+    "category": "Creative",
+    "details": {
+      "overview": "Translators and linguists help people connect by translating texts, media, and live conversations.",
+      "skills": ["Languages", "Communication", "Cultural Knowledge"],
+      "tools": ["CAT Tools", "SDL Trados", "DeepL"],
+      "industries": ["Education", "Media", "Tourism"],
+      "future": "Globalization keeps demand for translators high.",
+      "challenges": ["Maintaining accuracy", "Adapting to AI translation"],
+      "salary": "Avg. $45k - $90k per year",
+      "learning": ["Duolingo", "Coursera Translation Studies", "Language Exchange"]
+    }
+  },
+
+  {
+    "id": 11,
+    "icon": "fas fa-leaf",
+    "title": "Environmental Science",
+    "desc": "Work on solving global issues like climate change and sustainability.",
+    "category": "Science",
+    "details": {
+      "overview": "Environmental scientists study ecosystems, pollution, and resources to create sustainable solutions for the planet.",
+      "skills": ["Ecology", "Geology", "Data Analysis", "GIS"],
+      "tools": ["ArcGIS", "Remote Sensing Tools", "Lab Instruments"],
+      "industries": ["Government", "NGOs", "Energy", "Research"],
+      "future": "Green technologies and sustainability efforts are rapidly expanding.",
+      "challenges": ["Funding limitations", "Political barriers"],
+      "salary": "Avg. $55k - $100k per year",
+      "learning": ["Coursera Environmental Science", "edX Sustainability Courses"]
+    }
+  },
+  {
+    "id": 12,
+    "icon": "fas fa-film",
+    "title": "Film & Animation",
+    "desc": "Bring stories to life through cinema and digital animation.",
+    "category": "Creative",
+    "details": {
+      "overview": "Film and animation artists create movies, series, and digital media content for entertainment and education.",
+      "skills": ["Storytelling", "3D Animation", "Cinematography", "Editing"],
+      "tools": ["Maya", "Blender", "Premiere Pro", "After Effects"],
+      "industries": ["Entertainment", "Advertising", "Gaming"],
+      "future": "Streaming platforms and VR are expanding opportunities.",
+      "challenges": ["High competition", "Budget constraints"],
+      "salary": "Avg. $50k - $120k per year",
+      "learning": ["Pixar in a Box (Khan Academy)", "Animation Mentor"]
+    }
+  },
+  {
+    "id": 13,
+    "icon": "fas fa-flask",
+    "title": "Pharmaceutical Science",
+    "desc": "Develop medicines and improve healthcare outcomes.",
+    "category": "Science",
+    "details": {
+      "overview": "Pharmaceutical scientists research and develop drugs to treat diseases and improve human health.",
+      "skills": ["Chemistry", "Biology", "Clinical Research", "Regulatory Knowledge"],
+      "tools": ["Lab Equipment", "Spectroscopy Tools", "Clinical Databases"],
+      "industries": ["Healthcare", "Pharma", "Research"],
+      "future": "Growing demand with new diseases and global healthcare needs.",
+      "challenges": ["Strict regulations", "High R&D costs"],
+      "salary": "Avg. $75k - $130k per year",
+      "learning": ["Pharmacology MOOCs", "FDA Training Programs"]
+    }
+  },
+  {
+    "id": 14,
+    "icon": "fas fa-graduation-cap",
+    "title": "Education & Teaching",
+    "desc": "Shape the next generation through knowledge and mentorship.",
+    "category": "Management",
+    "details": {
+      "overview": "Teachers and educators inspire and guide students by providing knowledge, skills, and mentorship.",
+      "skills": ["Communication", "Subject Expertise", "Mentoring", "Leadership"],
+      "tools": ["Google Classroom", "Zoom", "Blackboard"],
+      "industries": ["Schools", "Universities", "EdTech"],
+      "future": "EdTech and online learning create new teaching opportunities.",
+      "challenges": ["Low funding in some regions", "Adapting to digital tools"],
+      "salary": "Avg. $40k - $90k per year",
+      "learning": ["Khan Academy", "Coursera Teaching Programs"]
+    }
+  },
+  {
+    "id": 15,
+    "icon": "fas fa-stethoscope",
+    "title": "Healthcare & Medicine",
+    "desc": "Save lives and improve health through medical practice.",
+    "category": "Science",
+    "details": {
+      "overview": "Healthcare professionals diagnose, treat, and care for patients across various medical fields.",
+      "skills": ["Medical Knowledge", "Critical Thinking", "Empathy", "Teamwork"],
+      "tools": ["Medical Equipment", "EHR Systems", "Diagnostic Tools"],
+      "industries": ["Hospitals", "Clinics", "Research"],
+      "future": "Healthcare jobs are expected to grow significantly worldwide.",
+      "challenges": ["High stress", "Long working hours"],
+      "salary": "Avg. $100k - $200k per year",
+      "learning": ["Harvard Medical School Online", "Coursera Global Health Programs"]
+    }
+  },
+  {
+    "id": 16,
+    "icon": "fas fa-gamepad",
+    "title": "Game Development",
+    "desc": "Create immersive worlds and interactive experiences.",
+    "category": "Creative",
+    "details": {
+      "overview": "Game developers design, code, and build interactive video games across consoles, PC, and mobile platforms.",
+      "skills": ["C#", "Unity", "Unreal Engine", "Game Design"],
+      "tools": ["Unity", "Unreal Engine", "Maya", "Photoshop"],
+      "industries": ["Gaming", "Entertainment", "VR/AR"],
+      "future": "Esports, AR, and VR are rapidly fueling growth.",
+      "challenges": ["Tight deadlines", "High crunch culture"],
+      "salary": "Avg. $60k - $120k per year",
+      "learning": ["Unity Learn", "Udemy Game Development Courses"]
+    }
+  },
+  {
+    "id": 17,
+    "icon": "fas fa-laptop-code",
+    "title": "Backend Development",
+    "desc": "Build the brain of apps and manage data securely.",
+    "category": "Development",
+    "details": {
+      "overview": "Backend developers create and manage databases, servers, and application logic.",
+      "skills": ["Node.js", "Express", "Databases", "API Development"],
+      "tools": ["Postman", "Docker", "MongoDB", "MySQL"],
+      "industries": ["Software", "Finance", "E-commerce"],
+      "future": "Data-driven apps make backend crucial.",
+      "challenges": ["Scaling applications", "Security vulnerabilities"],
+      "salary": "Avg. $75k - $140k per year",
+      "learning": ["Node.js Docs", "Backend Masters", "FreeCodeCamp Backend"]
+    }
+  },
+  {
+    "id": 18,
+    "icon": "fas fa-project-diagram",
+    "title": "Project Management",
+    "desc": "Lead teams and deliver projects successfully.",
+    "category": "Management",
+    "details": {
+      "overview": "Project managers plan, execute, and oversee projects to meet goals within deadlines and budgets.",
+      "skills": ["Leadership", "Agile", "Scrum", "Communication"],
+      "tools": ["Jira", "Asana", "Trello", "MS Project"],
+      "industries": ["IT", "Construction", "Business"],
+      "future": "Agile methodologies boost demand for project managers.",
+      "challenges": ["Deadline pressure", "Managing conflicts"],
+      "salary": "Avg. $70k - $130k per year",
+      "learning": ["PMP Certification", "Agile Scrum Master Courses"]
+    }
+  },
+  {
+    "id": 19,
+    "icon": "fas fa-brush",
+    "title": "Graphic Design",
+    "desc": "Communicate ideas visually through creative designs.",
+    "category": "Design",
+    "details": {
+      "overview": "Graphic designers create logos, branding, and visual communication for businesses.",
+      "skills": ["Photoshop", "Illustrator", "Creativity", "Typography"],
+      "tools": ["Adobe Photoshop", "Illustrator", "Canva"],
+      "industries": ["Advertising", "Media", "Freelancing"],
+      "future": "Digital marketing and branding keep demand high.",
+      "challenges": ["Client revisions", "Tight deadlines"],
+      "salary": "Avg. $45k - $90k per year",
+      "learning": ["Adobe Creative Cloud Tutorials", "Skillshare Design Courses"]
+    }
+  },
+  {
+    "id": 20,
+    "icon": "fas fa-hand-holding-heart",
+    "title": "Social Work",
+    "desc": "Make a difference by helping communities and individuals.",
+    "category": "Management",
+    "details": {
+      "overview": "Social workers support individuals and communities in overcoming challenges and improving well-being.",
+      "skills": ["Empathy", "Counseling", "Crisis Management", "Advocacy"],
+      "tools": ["Case Management Software", "Community Resources"],
+      "industries": ["NGOs", "Healthcare", "Education"],
+      "future": "Growing demand in mental health and community support.",
+      "challenges": ["Emotional stress", "Limited funding"],
+      "salary": "Avg. $40k - $80k per year",
+      "learning": ["Coursera Social Work Programs", "NASW Resources"]
+    }
+  },
+  {
+    "id": 21,
+    "icon": "fas fa-user-md",
+    "title": "Medicine (MBBS)",
+    "desc": "Become a doctor and save lives through clinical practice.",
+    "category": "Medical",
+    "details": {
+      "overview": "Doctors diagnose, treat, and care for patients across a wide range of specialties, working in hospitals, clinics, and research settings.",
+      "skills": ["Clinical reasoning", "Patient communication", "Anatomy & physiology", "Diagnostic skills", "Basic surgical skills"],
+      "tools": ["Stethoscope", "EHR systems", "Diagnostic imaging (X-ray/MRI/CT)", "Laboratory instruments"],
+      "industries": ["Hospitals", "Clinics", "Public health", "Medical research"],
+      "future": "Stable global demand; growth in telemedicine, specialization, and clinical research roles.",
+      "challenges": ["Long and intensive training", "High responsibility and risk of burnout", "Licensing & regulatory exams"],
+      "salary": "Avg. $100k - $250k per year",
+      "learning": ["MBBS/MD programs", "Clinical rotations & internships", "Residency/specialty training", "Continuing medical education (CME)"]
+    }
+  },
+  {
+    "id": 22,
+    "icon": "fas fa-user-nurse",
+    "title": "Nursing",
+    "desc": "Provide compassionate care and support to patients in hospitals and clinics.",
+    "category": "Medical",
+    "details": {
+      "overview": "Nurses are the backbone of healthcare, assisting doctors, caring for patients, administering treatments, and ensuring recovery.",
+      "skills": ["Patient care", "Medical knowledge", "Empathy", "Teamwork", "Critical thinking"],
+      "tools": ["Medical charts", "Monitoring devices", "IV equipment", "EHR systems"],
+      "industries": ["Hospitals", "Clinics", "Community healthcare", "Research"],
+      "future": "Nursing is in high demand worldwide, especially in aging populations and global health crises.",
+      "challenges": ["Long shifts", "Emotional stress", "High patient loads"],
+      "salary": "Avg. $50k - $100k per year",
+      "learning": ["Bachelor of Nursing (BSN)", "NCLEX-RN", "Advanced practice nursing programs"]
+    }
+  },
+  {
+    "id": 23,
+    "icon": "fas fa-tooth",
+    "title": "Dentistry",
+    "desc": "Maintain oral health and perform dental surgeries.",
+    "category": "Medical",
+    "details": {
+      "overview": "Dentists diagnose and treat issues related to teeth, gums, and mouth, promoting oral hygiene and performing surgeries.",
+      "skills": ["Oral diagnosis", "Surgical precision", "Patient care", "Dexterity"],
+      "tools": ["Dental instruments", "X-ray machines", "Drills", "3D dental scanners"],
+      "industries": ["Private clinics", "Hospitals", "Dental research", "Cosmetic dentistry"],
+      "future": "Rising demand for cosmetic and preventive dentistry.",
+      "challenges": ["High cost of dental equipment", "Patient anxiety"],
+      "salary": "Avg. $80k - $180k per year",
+      "learning": ["BDS programs", "Dental residencies", "Specializations in orthodontics or oral surgery"]
+    }
+  },
+  {
+    "id": 24,
+    "icon": "fas fa-capsules",
+    "title": "Pharmacy",
+    "desc": "Develop and dispense medicines to improve healthcare.",
+    "category": "Medical",
+    "details": {
+      "overview": "Pharmacists prepare, research, and dispense medications, ensuring safe and effective drug use.",
+      "skills": ["Pharmacology", "Chemistry", "Attention to detail", "Patient counseling"],
+      "tools": ["Drug databases", "Compounding equipment", "Pharmacy software"],
+      "industries": ["Hospitals", "Retail pharmacies", "Pharma companies", "Research labs"],
+      "future": "Pharmacists are crucial with new drug discoveries and growing healthcare needs.",
+      "challenges": ["Regulatory requirements", "Medication errors"],
+      "salary": "Avg. $70k - $130k per year",
+      "learning": ["Pharm.D programs", "Clinical pharmacy training"]
+    }
+  },
+  {
+    "id": 25,
+    "icon": "fas fa-bone",
+    "title": "Physiotherapy",
+    "desc": "Help patients recover movement and manage pain.",
+    "category": "Medical",
+    "details": {
+      "overview": "Physiotherapists assist patients with rehabilitation, physical therapy, and pain management after injuries or illnesses.",
+      "skills": ["Rehabilitation techniques", "Exercise therapy", "Anatomy knowledge", "Empathy"],
+      "tools": ["Exercise equipment", "Ultrasound therapy", "Manual therapy tools"],
+      "industries": ["Hospitals", "Rehab centers", "Sports", "Private clinics"],
+      "future": "Demand is rising due to aging populations and sports injuries.",
+      "challenges": ["Physical strain on therapists", "Slow patient progress"],
+      "salary": "Avg. $55k - $100k per year",
+      "learning": ["DPT programs", "Sports physiotherapy training"]
+    }
+  },
+  {
+    "id": 26,
+    "icon": "fas fa-x-ray",
+    "title": "Radiology",
+    "desc": "Diagnose diseases using medical imaging technology.",
+    "category": "Medical",
+    "details": {
+      "overview": "Radiologists use X-rays, CT scans, MRI, and ultrasound to detect and diagnose diseases.",
+      "skills": ["Imaging interpretation", "Anatomy", "Attention to detail", "Technical knowledge"],
+      "tools": ["MRI", "CT scan", "X-ray machines", "Ultrasound devices"],
+      "industries": ["Hospitals", "Diagnostics centers", "Research"],
+      "future": "Imaging is expanding with AI and advanced scanning technology.",
+      "challenges": ["Radiation exposure risks", "High equipment costs"],
+      "salary": "Avg. $90k - $200k per year",
+      "learning": ["MD Radiology programs", "Diagnostic imaging fellowships"]
+    }
+  },
+  {
+    "id": 27,
+    "icon": "fas fa-heartbeat",
+    "title": "Cardiology",
+    "desc": "Specialize in heart and blood vessel health.",
+    "category": "Medical",
+    "details": {
+      "overview": "Cardiologists diagnose and treat heart conditions, performing procedures and managing cardiac diseases.",
+      "skills": ["Cardiac diagnosis", "Critical care", "Surgical precision", "Communication"],
+      "tools": ["ECG machines", "Echocardiogram", "Catheterization tools"],
+      "industries": ["Hospitals", "Specialty clinics", "Research centers"],
+      "future": "Cardiac diseases are on the rise; demand for cardiologists is high.",
+      "challenges": ["High-pressure surgeries", "Emergency care demands"],
+      "salary": "Avg. $150k - $350k per year",
+      "learning": ["MD Cardiology", "Fellowships in interventional cardiology"]
+    }
+  },
+  {
+    "id": 28,
+    "icon": "fas fa-brain",
+    "title": "Neurology",
+    "desc": "Treat disorders of the brain and nervous system.",
+    "category": "Medical",
+    "details": {
+      "overview": "Neurologists diagnose and treat brain, spine, and nerve disorders like epilepsy, stroke, and Parkinson’s.",
+      "skills": ["Neurological diagnosis", "Patient care", "Critical thinking"],
+      "tools": ["MRI", "EEG machines", "Neuroimaging software"],
+      "industries": ["Hospitals", "Neuroscience research", "Clinics"],
+      "future": "Neurology is growing due to brain-related diseases and research advances.",
+      "challenges": ["Complex cases", "Long recovery processes"],
+      "salary": "Avg. $140k - $300k per year",
+      "learning": ["MD Neurology", "Neuroscience fellowships"]
+    }
+  },
+  {
+    "id": 29,
+    "icon": "fas fa-syringe",
+    "title": "Anesthesiology",
+    "desc": "Manage pain and provide anesthesia during surgeries.",
+    "category": "Medical",
+    "details": {
+      "overview": "Anesthesiologists ensure patient safety by administering anesthesia and monitoring during surgeries.",
+      "skills": ["Pharmacology", "Patient monitoring", "Critical decision-making"],
+      "tools": ["Anesthesia machines", "Ventilators", "Monitoring systems"],
+      "industries": ["Hospitals", "Surgery centers", "Research"],
+      "future": "Anesthesiologists remain essential for every surgical procedure.",
+      "challenges": ["High responsibility", "Emergency situations"],
+      "salary": "Avg. $160k - $350k per year",
+      "learning": ["MD Anesthesiology programs", "Critical care fellowships"]
+    }
+  },
+  {
+    "id": 30,
+    "icon": "fas fa-baby",
+    "title": "Pediatrics",
+    "desc": "Care for infants, children, and adolescents.",
+    "category": "Medical",
+    "details": {
+      "overview": "Pediatricians provide preventive care, treat illnesses, and monitor growth and development in children.",
+      "skills": ["Child care", "Diagnosis", "Communication", "Empathy"],
+      "tools": ["Vaccination kits", "Stethoscopes", "Growth monitoring tools"],
+      "industries": ["Hospitals", "Clinics", "Community healthcare"],
+      "future": "Children’s healthcare is a critical priority globally.",
+      "challenges": ["Handling sensitive cases", "Parental expectations"],
+      "salary": "Avg. $90k - $180k per year",
+      "learning": ["MD Pediatrics", "Pediatric fellowships"]
+    }
+  },
+  {
+    "id": 31,
+    "icon": "fas fa-dna",
+    "title": "Pathology",
+    "desc": "Diagnose diseases by studying body tissues and fluids.",
+    "category": "Medical",
+    "details": {
+      "overview": "Pathologists work in labs, studying tissues, blood, and other fluids to detect diseases.",
+      "skills": ["Microscopy", "Diagnosis", "Laboratory testing"],
+      "tools": ["Microscopes", "Lab instruments", "Histology tools"],
+      "industries": ["Hospitals", "Labs", "Research centers"],
+      "future": "Pathology is crucial for accurate diagnoses and medical research.",
+      "challenges": ["Exposure to infections", "Precision required"],
+      "salary": "Avg. $80k - $160k per year",
+      "learning": ["MD Pathology programs", "Clinical pathology training"]
+    }
+  },
+  {
+    "id": 32,
+    "icon": "fas fa-vials",
+    "title": "Biochemistry",
+    "desc": "Study chemical processes in living organisms.",
+    "category": "Medical",
+    "details": {
+      "overview": "Biochemists research cellular and molecular processes to advance medical treatments and drug discovery.",
+      "skills": ["Molecular biology", "Research", "Analytical skills"],
+      "tools": ["Spectroscopy", "Chromatography", "Lab software"],
+      "industries": ["Pharma", "Research labs", "Universities"],
+      "future": "Biochemistry drives innovation in medicine and genetics.",
+      "challenges": ["High lab costs", "Slow results"],
+      "salary": "Avg. $70k - $130k per year",
+      "learning": ["MSc/PhD Biochemistry", "Research fellowships"]
+    }
+  },
+  {
+    "id": 33,
+    "icon": "fas fa-allergies",
+    "title": "Dermatology",
+    "desc": "Specialize in skin, hair, and nail health.",
+    "category": "Medical",
+    "details": {
+      "overview": "Dermatologists treat conditions like acne, eczema, skin cancer, and perform cosmetic procedures.",
+      "skills": ["Diagnosis", "Surgical precision", "Patient care"],
+      "tools": ["Dermatoscopes", "Lasers", "Biopsy tools"],
+      "industries": ["Hospitals", "Private clinics", "Cosmetic centers"],
+      "future": "Rising demand due to skincare awareness and cosmetic treatments.",
+      "challenges": ["Chronic patient concerns", "High competition"],
+      "salary": "Avg. $120k - $250k per year",
+      "learning": ["MD Dermatology", "Cosmetic dermatology courses"]
+    }
+  },
+  {
+    "id": 34,
+    "icon": "fas fa-baby-carriage",
+    "title": "Gynecology & Obstetrics",
+    "desc": "Care for women’s reproductive health and childbirth.",
+    "category": "Medical",
+    "details": {
+      "overview": "Gynecologists and obstetricians manage reproductive health, pregnancy, and childbirth.",
+      "skills": ["Surgical skills", "Patient care", "Communication"],
+      "tools": ["Ultrasound devices", "Delivery kits", "Surgical instruments"],
+      "industries": ["Hospitals", "Maternity clinics", "Research"],
+      "future": "Critical for women’s health, maternal care, and fertility treatments.",
+      "challenges": ["High responsibility", "Emergency cases"],
+      "salary": "Avg. $120k - $300k per year",
+      "learning": ["MD Gynecology & Obstetrics", "Fertility specialist training"]
+    }
+  },
+  {
+    "id": 35,
+    "icon": "fas fa-head-side-virus",
+    "title": "Psychiatry",
+    "desc": "Diagnose and treat mental health conditions.",
+    "category": "Medical",
+    "details": {
+      "overview": "Psychiatrists work with patients dealing with depression, anxiety, schizophrenia, and other mental disorders.",
+      "skills": ["Psychological assessment", "Therapy", "Pharmacology"],
+      "tools": ["Diagnostic interviews", "Therapy tools", "Medication"],
+      "industries": ["Hospitals", "Clinics", "Mental health centers"],
+      "future": "Mental health awareness is increasing; demand for psychiatrists is growing.",
+      "challenges": ["Emotional strain", "Stigma around mental health"],
+      "salary": "Avg. $100k - $220k per year",
+      "learning": ["MD Psychiatry", "Psychiatric fellowships"]
+    }
+  },
+  {
+    "id": 36,
+    "icon": "fas fa-eye",
+    "title": "Ophthalmology",
+    "desc": "Specialize in eye care and vision health.",
+    "category": "Medical",
+    "details": {
+      "overview": "Ophthalmologists diagnose and treat eye conditions, perform surgeries, and improve vision.",
+      "skills": ["Microsurgery", "Diagnosis", "Patient care"],
+      "tools": ["Slit lamp", "Laser tools", "Ophthalmoscopes"],
+      "industries": ["Hospitals", "Eye clinics", "Research"],
+      "future": "Vision care demand is high due to aging populations and screen usage.",
+      "challenges": ["Precision required", "Long surgeries"],
+      "salary": "Avg. $120k - $250k per year",
+      "learning": ["MD Ophthalmology", "Fellowships in retina/cornea"]
+    }
+  },
+  {
+    "id": 37,
+    "icon": "fas fa-ear",
+    "title": "ENT (Otolaryngology)",
+    "desc": "Treat ear, nose, and throat disorders.",
+    "category": "Medical",
+    "details": {
+      "overview": "ENT specialists diagnose and treat conditions like hearing loss, sinus issues, and throat infections.",
+      "skills": ["Diagnosis", "Surgery", "Patient care"],
+      "tools": ["Endoscopes", "Hearing aids", "Surgical instruments"],
+      "industries": ["Hospitals", "ENT clinics", "Research"],
+      "future": "ENT care is expanding due to allergies, pollution, and hearing problems.",
+      "challenges": ["Delicate surgeries", "Chronic conditions"],
+      "salary": "Avg. $100k - $220k per year",
+      "learning": ["MD ENT programs", "Cochlear implant fellowships"]
+    }
+  },
+  {
+    "id": 38,
+    "icon": "fas fa-syringe",
+    "title": "Immunology",
+    "desc": "Focus on the immune system and related diseases.",
+    "category": "Medical",
+    "details": {
+      "overview": "Immunologists study the immune system to treat allergies, autoimmune diseases, and develop vaccines.",
+      "skills": ["Research", "Clinical diagnosis", "Lab analysis"],
+      "tools": ["ELISA kits", "Lab equipment", "Immunoassays"],
+      "industries": ["Hospitals", "Research labs", "Pharma"],
+      "future": "Immunology is key for developing vaccines and treating immune-related disorders.",
+      "challenges": ["Complex research", "Long development cycles"],
+      "salary": "Avg. $90k - $180k per year",
+      "learning": ["MD Immunology", "Research fellowships"]
+    }
+  },
+  {
+    "id": 39,
+    "icon": "fas fa-procedures",
+    "title": "Surgery",
+    "desc": "Perform critical and life-saving operations.",
+    "category": "Medical",
+    "details": {
+      "overview": "Surgeons perform operations to treat injuries, diseases, and deformities.",
+      "skills": ["Precision", "Team leadership", "Critical decision-making"],
+      "tools": ["Surgical instruments", "Robotic surgery tools", "Operating room equipment"],
+      "industries": ["Hospitals", "Specialty clinics", "Research"],
+      "future": "Advances in robotic and minimally invasive surgery are shaping the future.",
+      "challenges": ["High stress", "Long surgeries"],
+      "salary": "Avg. $150k - $400k per year",
+      "learning": ["MS General Surgery", "Specialized surgical fellowships"]
+    }
+  },
+  {
+    "id": 40,
+    "icon": "fas fa-vial",
+    "title": "Medical Laboratory Technology",
+    "desc": "Analyze patient samples to aid diagnosis.",
+    "category": "Medical",
+    "details": {
+      "overview": "Lab technologists perform diagnostic tests on blood, tissues, and fluids to help doctors treat patients.",
+      "skills": ["Lab testing", "Attention to detail", "Data recording"],
+      "tools": ["Microscopes", "Diagnostic machines", "Lab kits"],
+      "industries": ["Hospitals", "Diagnostics labs", "Research"],
+      "future": "Lab techs are increasingly needed for advanced testing.",
+      "challenges": ["Infection risks", "Repetitive work"],
+      "salary": "Avg. $40k - $80k per year",
+      "learning": ["BSc Medical Lab Technology", "Clinical lab certifications"]
+    }
+  },
+  {
+    "id": 41,
+    "icon": "fas fa-calculator",
+    "title": "Accounting",
+    "desc": "Manage financial records and ensure compliance with tax laws.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Accountants handle bookkeeping, audits, tax preparation, and financial reporting for businesses and individuals.",
+      "skills": ["Bookkeeping", "Taxation", "Analytical skills", "Attention to detail"],
+      "tools": ["Tally", "QuickBooks", "Excel"],
+      "industries": ["Corporate", "Banks", "Tax Firms", "Government"],
+      "future": "High demand due to increasing financial regulations and business expansion.",
+      "challenges": ["Complex tax laws", "Tight deadlines"],
+      "salary": "Avg. $45k - $120k per year",
+      "learning": ["Chartered Accountancy", "CPA", "B.Com in Accounting"]
+    }
+  },
+  {
+    "id": 42,
+    "icon": "fas fa-briefcase",
+    "title": "Business Administration",
+    "desc": "Oversee and manage operations of organizations and enterprises.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Business administrators coordinate departments, optimize operations, and lead teams to meet organizational goals.",
+      "skills": ["Leadership", "Strategic planning", "Communication", "Decision-making"],
+      "tools": ["ERP systems", "MS Office", "CRM tools"],
+      "industries": ["Corporate", "Consulting", "Startups"],
+      "future": "Stable demand across all industries.",
+      "challenges": ["High competition", "Constant innovation required"],
+      "salary": "Avg. $60k - $150k per year",
+      "learning": ["BBA", "MBA", "Management certifications"]
+    }
+  },
+  {
+    "id": 43,
+    "icon": "fas fa-chart-line",
+    "title": "Finance",
+    "desc": "Plan, manage, and invest money for businesses and individuals.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Finance professionals handle investments, corporate funding, financial planning, and market analysis.",
+      "skills": ["Financial modeling", "Investment analysis", "Risk management"],
+      "tools": ["Bloomberg Terminal", "Excel", "Trading platforms"],
+      "industries": ["Banks", "Investment firms", "Corporate finance"],
+      "future": "Finance remains one of the highest-paying commerce careers.",
+      "challenges": ["High risk", "Market volatility"],
+      "salary": "Avg. $70k - $200k per year",
+      "learning": ["CFA", "MBA in Finance", "Financial analyst certifications"]
+    }
+  },
+  {
+    "id": 44,
+    "icon": "fas fa-bullhorn",
+    "title": "Marketing",
+    "desc": "Promote products and services to customers through creative strategies.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Marketers study consumer behavior, create campaigns, and build brand strategies to drive sales.",
+      "skills": ["Market research", "Creativity", "Digital marketing", "Communication"],
+      "tools": ["Google Ads", "Meta Ads", "SEO tools", "Analytics"],
+      "industries": ["Retail", "FMCG", "Tech companies"],
+      "future": "Huge growth in digital marketing and e-commerce.",
+      "challenges": ["Fast-changing trends", "High competition"],
+      "salary": "Avg. $50k - $140k per year",
+      "learning": ["MBA in Marketing", "Digital marketing certifications"]
+    }
+  },
+  {
+    "id": 45,
+    "icon": "fas fa-users",
+    "title": "Human Resource Management",
+    "desc": "Manage employee relations, recruitment, and organizational culture.",
+    "category": "Commerce",
+    "details": {
+      "overview": "HR managers recruit, train, and retain employees while handling workplace policies and employee satisfaction.",
+      "skills": ["Communication", "Conflict resolution", "Organizational skills"],
+      "tools": ["HRMS software", "Recruitment platforms", "Payroll systems"],
+      "industries": ["Corporate", "Startups", "NGOs"],
+      "future": "HR is evolving with AI and digital recruitment.",
+      "challenges": ["Employee conflicts", "Retention issues"],
+      "salary": "Avg. $55k - $120k per year",
+      "learning": ["BBA/MBA in HR", "SHRM Certification"]
+    }
+  },
+  {
+    "id": 46,
+    "icon": "fas fa-balance-scale",
+    "title": "Economics",
+    "desc": "Study and analyze market trends, policies, and resource allocation.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Economists research market dynamics, create forecasts, and advise governments and organizations.",
+      "skills": ["Data analysis", "Critical thinking", "Quantitative methods"],
+      "tools": ["Stata", "R", "Excel", "SPSS"],
+      "industries": ["Government", "Research", "Banks", "Think Tanks"],
+      "future": "Always relevant in policy making and business decisions.",
+      "challenges": ["Data-heavy research", "Unpredictable markets"],
+      "salary": "Avg. $70k - $150k per year",
+      "learning": ["BA/MA in Economics", "Econometrics training"]
+    }
+  },
+  {
+    "id": 47,
+    "icon": "fas fa-truck",
+    "title": "Supply Chain Management",
+    "desc": "Ensure smooth flow of goods and services across global networks.",
+    "category": "Commerce",
+    "details": {
+      "overview": "SCM professionals manage logistics, inventory, procurement, and vendor relationships.",
+      "skills": ["Logistics management", "Negotiation", "Analytical skills"],
+      "tools": ["SAP", "Oracle SCM", "Inventory software"],
+      "industries": ["Manufacturing", "Retail", "E-commerce"],
+      "future": "SCM experts are crucial for globalization and online trade.",
+      "challenges": ["Disruptions in supply", "High operational costs"],
+      "salary": "Avg. $60k - $130k per year",
+      "learning": ["MBA in Supply Chain", "CIPS, CSCP certifications"]
+    }
+  },
+  {
+    "id": 48,
+    "icon": "fas fa-hand-holding-usd",
+    "title": "Banking",
+    "desc": "Work in retail, commercial, and investment banks managing money and loans.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Bankers manage financial transactions, loans, customer relations, and corporate banking services.",
+      "skills": ["Customer service", "Financial knowledge", "Risk assessment"],
+      "tools": ["Banking software", "Financial platforms"],
+      "industries": ["Retail banks", "Investment banks", "Microfinance"],
+      "future": "Banking is transforming with fintech and digital banking.",
+      "challenges": ["High pressure", "Strict regulations"],
+      "salary": "Avg. $50k - $180k per year",
+      "learning": ["B.Com", "Banking certifications", "MBA in Banking & Finance"]
+    }
+  },
+  {
+    "id": 49,
+    "icon": "fas fa-coins",
+    "title": "Taxation",
+    "desc": "Specialize in tax planning, filing, and compliance for individuals and companies.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Tax professionals help clients optimize taxes, ensure compliance, and navigate legal frameworks.",
+      "skills": ["Tax law", "Attention to detail", "Analytical skills"],
+      "tools": ["Tally", "Tax software", "Excel"],
+      "industries": ["Accounting firms", "Government", "Corporate"],
+      "future": "Taxation experts remain in demand worldwide.",
+      "challenges": ["Constantly changing laws", "Complex paperwork"],
+      "salary": "Avg. $55k - $140k per year",
+      "learning": ["Chartered Accountant", "LLM in Taxation"]
+    }
+  },
+  {
+    "id": 50,
+    "icon": "fas fa-trade-federation",
+    "title": "International Business",
+    "desc": "Manage cross-border trade, global markets, and multinational operations.",
+    "category": "Commerce",
+    "details": {
+      "overview": "International business experts handle imports/exports, trade negotiations, and foreign market expansion.",
+      "skills": ["Global trade knowledge", "Negotiation", "Cross-cultural communication"],
+      "tools": ["ERP systems", "Global supply chain software"],
+      "industries": ["Export houses", "MNCs", "Trade firms"],
+      "future": "Essential with globalization and international trade policies.",
+      "challenges": ["Changing trade laws", "Currency fluctuations"],
+      "salary": "Avg. $65k - $150k per year",
+      "learning": ["MBA in International Business", "Diploma in Trade"]
+    }
+  },
+  {
+    "id": 51,
+    "icon": "fas fa-store",
+    "title": "Retail Management",
+    "desc": "Oversee retail store operations, merchandising, and customer experience.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Retail managers supervise staff, manage inventory, ensure customer satisfaction, and maximize sales.",
+      "skills": ["Customer service", "Leadership", "Inventory management"],
+      "tools": ["POS systems", "Inventory software", "CRM tools"],
+      "industries": ["Retail chains", "Supermarkets", "E-commerce"],
+      "future": "Steady growth with rising e-commerce and online shopping trends.",
+      "challenges": ["High employee turnover", "Meeting sales targets"],
+      "salary": "Avg. $45k - $100k per year",
+      "learning": ["BBA in Retail", "Diploma in Retail Management"]
+    }
+  },
+  {
+    "id": 52,
+    "icon": "fas fa-file-invoice-dollar",
+    "title": "Auditing",
+    "desc": "Examine financial records to ensure accuracy and compliance.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Auditors analyze financial reports, identify discrepancies, and ensure companies follow accounting standards.",
+      "skills": ["Attention to detail", "Risk analysis", "Accounting knowledge"],
+      "tools": ["Excel", "Audit software", "ERP tools"],
+      "industries": ["Accounting firms", "Corporate", "Government"],
+      "future": "Auditing remains essential for corporate governance.",
+      "challenges": ["High responsibility", "Tight deadlines"],
+      "salary": "Avg. $60k - $130k per year",
+      "learning": ["CA/CPA", "Internal audit certifications"]
+    }
+  },
+  {
+    "id": 53,
+    "icon": "fas fa-handshake",
+    "title": "Business Consulting",
+    "desc": "Advise companies on strategy, operations, and efficiency.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Consultants analyze business problems, recommend solutions, and help organizations grow.",
+      "skills": ["Problem-solving", "Communication", "Analytical skills"],
+      "tools": ["MS Office", "Data analysis tools", "Project management software"],
+      "industries": ["Consulting firms", "Startups", "Corporate"],
+      "future": "High demand with global business expansion.",
+      "challenges": ["Long working hours", "High pressure"],
+      "salary": "Avg. $70k - $180k per year",
+      "learning": ["MBA", "Consulting certifications"]
+    }
+  },
+  {
+    "id": 54,
+    "icon": "fas fa-warehouse",
+    "title": "Logistics Management",
+    "desc": "Plan and coordinate transportation and storage of goods.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Logistics managers ensure products move efficiently from suppliers to customers.",
+      "skills": ["Organization", "Problem-solving", "Negotiation"],
+      "tools": ["Warehouse management systems", "Fleet tracking software"],
+      "industries": ["E-commerce", "Retail", "Manufacturing"],
+      "future": "High demand with global trade and online shopping boom.",
+      "challenges": ["Supply chain disruptions", "Operational risks"],
+      "salary": "Avg. $55k - $120k per year",
+      "learning": ["MBA in Logistics", "Diploma in Supply Chain"]
+    }
+  },
+  {
+    "id": 55,
+    "icon": "fas fa-money-check-alt",
+    "title": "Corporate Law",
+    "desc": "Handle legal compliance and contracts for businesses.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Corporate lawyers draft contracts, advise on mergers, and ensure legal compliance in businesses.",
+      "skills": ["Legal knowledge", "Negotiation", "Critical thinking"],
+      "tools": ["Legal research tools", "Contract management software"],
+      "industries": ["Law firms", "Corporate", "Government"],
+      "future": "Growing demand in M&A and intellectual property.",
+      "challenges": ["Long hours", "High stakes cases"],
+      "salary": "Avg. $90k - $200k per year",
+      "learning": ["LLB", "Corporate law certifications"]
+    }
+  },
+  {
+    "id": 56,
+    "icon": "fas fa-chart-pie",
+    "title": "Business Analytics",
+    "desc": "Use data to guide business strategies and decisions.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Business analysts interpret data, identify trends, and provide actionable insights.",
+      "skills": ["Data analysis", "Critical thinking", "Communication"],
+      "tools": ["Power BI", "Tableau", "Excel", "SQL"],
+      "industries": ["Corporate", "Consulting", "Finance"],
+      "future": "One of the fastest-growing commerce careers.",
+      "challenges": ["Data complexity", "Constant learning required"],
+      "salary": "Avg. $65k - $150k per year",
+      "learning": ["MBA in Business Analytics", "Data analysis certifications"]
+    }
+  },
+  {
+    "id": 57,
+    "icon": "fas fa-lightbulb",
+    "title": "Entrepreneurship",
+    "desc": "Start and manage your own business or startup.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Entrepreneurs innovate, create startups, and drive economic growth through new ventures.",
+      "skills": ["Creativity", "Risk-taking", "Leadership", "Networking"],
+      "tools": ["Business planning tools", "Digital marketing platforms"],
+      "industries": ["Startups", "E-commerce", "Technology"],
+      "future": "Rapidly growing with digital businesses and online platforms.",
+      "challenges": ["High risk of failure", "Financial pressure"],
+      "salary": "Varies widely ($0 - $1M+ per year)",
+      "learning": ["BBA in Entrepreneurship", "Startup incubators", "Accelerator programs"]
+    }
+  },
+  {
+    "id": 58,
+    "icon": "fas fa-university",
+    "title": "Corporate Finance",
+    "desc": "Manage financial planning, risk, and investments in large organizations.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Corporate finance experts manage capital structure, funding, mergers, and financial risks.",
+      "skills": ["Financial modeling", "Analytical skills", "Negotiation"],
+      "tools": ["Excel", "ERP systems", "Bloomberg"],
+      "industries": ["Corporate", "Banks", "Investment firms"],
+      "future": "Always in demand with global corporations.",
+      "challenges": ["High stress", "Strict regulations"],
+      "salary": "Avg. $80k - $200k per year",
+      "learning": ["MBA in Finance", "CFA", "Financial modeling courses"]
+    }
+  },
+  {
+    "id": 59,
+    "icon": "fas fa-project-diagram",
+    "title": "Project Management",
+    "desc": "Plan, execute, and monitor projects within organizations.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Project managers oversee projects, coordinate teams, manage budgets, and ensure timely delivery.",
+      "skills": ["Leadership", "Planning", "Risk management"],
+      "tools": ["MS Project", "Jira", "Asana", "Trello"],
+      "industries": ["Corporate", "IT firms", "Construction"],
+      "future": "Growing demand across multiple sectors.",
+      "challenges": ["Meeting deadlines", "Managing multiple stakeholders"],
+      "salary": "Avg. $70k - $160k per year",
+      "learning": ["PMP Certification", "MBA in Project Management"]
+    }
+  },
+  {
+    "id": 60,
+    "icon": "fas fa-seedling",
+    "title": "Sustainability & CSR",
+    "desc": "Promote ethical business practices and corporate responsibility.",
+    "category": "Commerce",
+    "details": {
+      "overview": "CSR managers ensure companies follow ethical, social, and environmental responsibilities.",
+      "skills": ["Ethical decision-making", "Communication", "Project management"],
+      "tools": ["CSR reporting tools", "Sustainability frameworks"],
+      "industries": ["Corporate", "NGOs", "Government"],
+      "future": "Growing focus on green business and sustainability worldwide.",
+      "challenges": ["Balancing profit and responsibility", "Global regulations"],
+      "salary": "Avg. $55k - $120k per year",
+      "learning": ["MBA in CSR/Sustainability", "CSR certifications"]
+    }
+  },
+  {
+    "id": 71,
+    "icon": "fas fa-business-time",
+    "title": "Auditing",
+    "desc": "Examine financial records to ensure accuracy and compliance.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Auditors review financial statements, identify risks, and ensure companies follow laws and standards.",
+      "skills": ["Analytical thinking", "Attention to detail", "Accounting knowledge"],
+      "tools": ["Audit software", "MS Excel", "ERP systems"],
+      "industries": ["Public accounting", "Corporate finance", "Government"],
+      "future": "Increasing demand with stricter compliance laws.",
+      "challenges": ["Tight deadlines", "Complex regulations"],
+      "salary": "Avg. $55k - $110k per year",
+      "learning": ["CA", "CPA", "Auditing certifications"]
+    }
+  },
+  {
+    "id": 72,
+    "icon": "fas fa-hand-holding-usd",
+    "title": "Taxation",
+    "desc": "Specialize in tax laws, planning, and compliance.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Tax professionals help individuals and businesses manage tax returns, minimize liability, and comply with regulations.",
+      "skills": ["Tax law knowledge", "Problem solving", "Numerical skills"],
+      "tools": ["Tax software", "Accounting tools"],
+      "industries": ["Accounting firms", "Corporate finance", "Government"],
+      "future": "Stable demand with evolving tax regulations.",
+      "challenges": ["Constantly changing laws", "High workload in tax season"],
+      "salary": "Avg. $60k - $120k per year",
+      "learning": ["CA", "CPA", "Taxation courses"]
+    }
+  },
+  {
+    "id": 73,
+    "icon": "fas fa-chart-line",
+    "title": "Financial Analyst",
+    "desc": "Guide investment decisions by analyzing market trends.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Financial analysts study data, evaluate stocks and companies, and give recommendations to investors and businesses.",
+      "skills": ["Analytical ability", "Excel modeling", "Market research"],
+      "tools": ["Bloomberg Terminal", "MS Excel", "SQL"],
+      "industries": ["Banking", "Investment firms", "Corporate finance"],
+      "future": "Strong demand as businesses focus on data-driven decisions.",
+      "challenges": ["Market volatility", "High pressure roles"],
+      "salary": "Avg. $70k - $150k per year",
+      "learning": ["CFA", "MBA Finance", "Investment courses"]
+    }
+  },
+  {
+    "id": 74,
+    "icon": "fas fa-sack-dollar",
+    "title": "Treasury Management",
+    "desc": "Manage a company’s liquidity, investments, and financial risk.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Treasury managers ensure companies have enough cash flow, manage debts, and optimize investments.",
+      "skills": ["Cash flow management", "Risk analysis", "Financial strategy"],
+      "tools": ["Treasury software", "ERP systems"],
+      "industries": ["Corporates", "Banks", "Financial institutions"],
+      "future": "Important role in managing financial stability.",
+      "challenges": ["Global financial risks", "Regulatory pressures"],
+      "salary": "Avg. $80k - $160k per year",
+      "learning": ["MBA Finance", "Treasury certifications"]
+    }
+  },
+  {
+    "id": 75,
+    "icon": "fas fa-industry",
+    "title": "Cost & Management Accounting",
+    "desc": "Optimize costs and improve profitability through analysis.",
+    "category": "Commerce",
+    "details": {
+      "overview": "CMAs help businesses control costs, budget effectively, and make profitable decisions.",
+      "skills": ["Budgeting", "Analytical thinking", "Cost analysis"],
+      "tools": ["ERP systems", "Accounting software"],
+      "industries": ["Manufacturing", "Corporates", "Consultancy"],
+      "future": "High demand in cost-sensitive industries.",
+      "challenges": ["Detailed analysis required", "Dynamic cost structures"],
+      "salary": "Avg. $60k - $120k per year",
+      "learning": ["CMA certification", "MBA Finance"]
+    }
+  },
+  {
+    "id": 76,
+    "icon": "fas fa-briefcase",
+    "title": "International Business",
+    "desc": "Work in global trade, import/export, and multinational operations.",
+    "category": "Commerce",
+    "details": {
+      "overview": "International business specialists manage global trade deals, international marketing, and cross-border finance.",
+      "skills": ["Cross-cultural communication", "Trade laws", "Negotiation"],
+      "tools": ["Trade management systems", "CRM"],
+      "industries": ["Export/import firms", "MNCs", "Logistics"],
+      "future": "Globalization ensures strong demand.",
+      "challenges": ["Changing trade policies", "Currency risks"],
+      "salary": "Avg. $70k - $140k per year",
+      "learning": ["MBA International Business", "Diploma in International Trade"]
+    }
+  },
+  {
+    "id": 77,
+    "icon": "fas fa-globe",
+    "title": "E-Commerce",
+    "desc": "Manage online businesses and digital marketplaces.",
+    "category": "Commerce",
+    "details": {
+      "overview": "E-commerce specialists run online stores, optimize sales, and handle logistics and digital marketing.",
+      "skills": ["Digital marketing", "Logistics", "Customer experience"],
+      "tools": ["Shopify", "WooCommerce", "Google Analytics"],
+      "industries": ["Retail", "Startups", "Tech companies"],
+      "future": "Rapidly growing as more businesses go online.",
+      "challenges": ["High competition", "Cybersecurity threats"],
+      "salary": "Avg. $60k - $120k per year",
+      "learning": ["MBA E-Commerce", "Digital marketing certifications"]
+    }
+  },
+  {
+    "id": 78,
+    "icon": "fas fa-building",
+    "title": "Corporate Law (Commerce + Law)",
+    "desc": "Specialize in legal aspects of business and trade.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Corporate lawyers manage contracts, compliance, and disputes for companies.",
+      "skills": ["Legal knowledge", "Negotiation", "Risk management"],
+      "tools": ["Legal databases", "Case management software"],
+      "industries": ["Law firms", "Corporates", "Consultancy"],
+      "future": "Strong demand in growing corporate sectors.",
+      "challenges": ["High stress", "Long working hours"],
+      "salary": "Avg. $90k - $200k per year",
+      "learning": ["LLB + Commerce", "Corporate law certifications"]
+    }
+  },
+  {
+    "id": 79,
+    "icon": "fas fa-lightbulb",
+    "title": "Entrepreneurship",
+    "desc": "Start your own business and create opportunities.",
+    "category": "Commerce",
+    "details": {
+      "overview": "Entrepreneurs innovate, build companies, and manage business growth from scratch.",
+      "skills": ["Creativity", "Risk-taking", "Leadership"],
+      "tools": ["Business planning tools", "CRM", "Accounting software"],
+      "industries": ["Startups", "SMEs", "Any industry"],
+      "future": "Limitless potential depending on idea and execution.",
+      "challenges": ["High risk of failure", "Funding challenges"],
+      "salary": "Varies – can be $0 or multi-million",
+      "learning": ["MBA Entrepreneurship", "Startup incubators"]
+    }
+  },
+  {
+    "id": 80,
+    "icon": "fas fa-project-diagram",
+    "title": "Supply Chain Management",
+    "desc": "Oversee logistics, inventory, and product distribution.",
+    "category": "Commerce",
+    "details": {
+      "overview": "SCM professionals ensure smooth production, warehousing, transportation, and delivery of goods.",
+      "skills": ["Logistics", "Inventory management", "Data analysis"],
+      "tools": ["ERP systems", "Logistics software"],
+      "industries": ["Manufacturing", "Retail", "E-commerce"],
+      "future": "Globalization increases demand for SCM experts.",
+      "challenges": ["Global disruptions", "High complexity"],
+      "salary": "Avg. $70k - $140k per year",
+      "learning": ["MBA Supply Chain", "Logistics certifications"]
+    }
+  },
+  {
+    "id": 81,
+    "icon": "fas fa-newspaper",
+    "title": "Journalism",
+    "desc": "Report, write, and deliver news to the public.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Journalists investigate and present news stories through print, broadcast, and digital media.",
+      "skills": ["Research", "Writing", "Interviewing", "Critical thinking"],
+      "tools": ["News software", "Camera", "Recording equipment"],
+      "industries": ["Newspapers", "TV channels", "Online media"],
+      "future": "Digital journalism is rapidly growing worldwide.",
+      "challenges": ["High competition", "Risk in conflict zones"],
+      "salary": "Avg. $40k - $100k per year",
+      "learning": ["BA/MA in Journalism", "Media internships"]
+    }
+  },
+  {
+    "id": 82,
+    "icon": "fas fa-tv",
+    "title": "Broadcasting",
+    "desc": "Work in television or radio production and presenting.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Broadcasters present news, shows, and entertainment programs on TV or radio.",
+      "skills": ["Public speaking", "Presentation", "Technical knowledge"],
+      "tools": ["Microphones", "Studio equipment", "Editing software"],
+      "industries": ["Television", "Radio", "Online streaming"],
+      "future": "Expanding with podcasts and digital platforms.",
+      "challenges": ["Odd working hours", "Public criticism"],
+      "salary": "Avg. $45k - $120k per year",
+      "learning": ["BA Mass Communication", "Broadcast training"]
+    }
+  },
+  {
+    "id": 83,
+    "icon": "fas fa-bullhorn",
+    "title": "Public Relations (PR)",
+    "desc": "Manage public image and communication of brands.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "PR professionals build and maintain a positive reputation for companies, celebrities, and organizations.",
+      "skills": ["Communication", "Networking", "Crisis management"],
+      "tools": ["Press kits", "Media monitoring tools"],
+      "industries": ["Corporate firms", "Media houses", "Government"],
+      "future": "High demand with growing branding needs.",
+      "challenges": ["Crisis handling", "24/7 availability"],
+      "salary": "Avg. $50k - $130k per year",
+      "learning": ["BA/MA Public Relations", "Digital PR courses"]
+    }
+  },
+  {
+    "id": 84,
+    "icon": "fas fa-video",
+    "title": "Film Making",
+    "desc": "Create movies, documentaries, and short films.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Filmmakers handle scriptwriting, directing, editing, and producing films for entertainment or education.",
+      "skills": ["Storytelling", "Cinematography", "Editing"],
+      "tools": ["Cameras", "Editing software", "Lighting equipment"],
+      "industries": ["Cinema", "Television", "Streaming platforms"],
+      "future": "Strong growth with Netflix, YouTube, and OTT platforms.",
+      "challenges": ["High production cost", "Uncertain success"],
+      "salary": "Varies from $40k to millions",
+      "learning": ["Film schools", "Workshops", "Practical experience"]
+    }
+  },
+  {
+    "id": 85,
+    "icon": "fas fa-microphone",
+    "title": "Radio Jockey (RJ)",
+    "desc": "Host radio shows and engage with live audiences.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Radio jockeys present music, news, and talk shows while interacting with listeners.",
+      "skills": ["Voice modulation", "Humor", "Spontaneity"],
+      "tools": ["Microphones", "Mixing console", "Radio software"],
+      "industries": ["FM channels", "Online radio", "Podcasts"],
+      "future": "Transitioning into podcasts and digital radio.",
+      "challenges": ["Maintaining energy", "Audience engagement"],
+      "salary": "Avg. $30k - $80k per year",
+      "learning": ["Diploma in RJ", "Mass Comm degree"]
+    }
+  },
+  {
+    "id": 86,
+    "icon": "fas fa-pen-nib",
+    "title": "Content Writing",
+    "desc": "Create articles, blogs, and online content.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Content writers produce engaging written material for websites, blogs, and social media.",
+      "skills": ["Writing", "SEO", "Creativity"],
+      "tools": ["Word processors", "SEO tools"],
+      "industries": ["Digital marketing", "Publishing", "Media houses"],
+      "future": "Content marketing is booming globally.",
+      "challenges": ["Deadlines", "Plagiarism issues"],
+      "salary": "Avg. $35k - $90k per year",
+      "learning": ["BA English/Journalism", "Content writing courses"]
+    }
+  },
+  {
+    "id": 87,
+    "icon": "fas fa-photo-video",
+    "title": "Advertising",
+    "desc": "Design and execute campaigns to promote products and brands.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Advertising specialists create campaigns using print, TV, and digital platforms to attract customers.",
+      "skills": ["Creativity", "Marketing", "Storytelling"],
+      "tools": ["Adobe Suite", "Market research tools"],
+      "industries": ["Advertising agencies", "Corporate marketing"],
+      "future": "Digital ads and influencer marketing rising fast.",
+      "challenges": ["High pressure", "Creative burnout"],
+      "salary": "Avg. $60k - $150k per year",
+      "learning": ["MBA Marketing", "Advertising courses"]
+    }
+  },
+  {
+    "id": 88,
+    "icon": "fas fa-podcast",
+    "title": "Podcasting",
+    "desc": "Host and produce audio shows on various topics.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Podcasters create audio content, interview guests, and build communities around specific niches.",
+      "skills": ["Storytelling", "Voice skills", "Marketing"],
+      "tools": ["Microphones", "Editing software", "Hosting platforms"],
+      "industries": ["Entertainment", "Education", "Media"],
+      "future": "Podcast industry is booming globally.",
+      "challenges": ["Audience building", "Monetization"],
+      "salary": "Varies widely ($20k - $200k per year)",
+      "learning": ["Self-learning", "Audio production courses"]
+    }
+  },
+  {
+    "id": 89,
+    "icon": "fas fa-camera",
+    "title": "Photojournalism",
+    "desc": "Tell stories through powerful photography.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Photojournalists capture images that accompany news stories and communicate events visually.",
+      "skills": ["Photography", "Storytelling", "Editing"],
+      "tools": ["Cameras", "Editing software"],
+      "industries": ["Newspapers", "Magazines", "Online media"],
+      "future": "Strong demand in digital and visual storytelling.",
+      "challenges": ["Risk in conflict zones", "Tight deadlines"],
+      "salary": "Avg. $40k - $100k per year",
+      "learning": ["Diploma in Photography", "Mass Comm degree"]
+    }
+  },
+  {
+    "id": 90,
+    "icon": "fas fa-chalkboard-teacher",
+    "title": "Media Education & Research",
+    "desc": "Teach and research in communication and journalism fields.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Media researchers and educators contribute to academic knowledge and train future professionals.",
+      "skills": ["Teaching", "Critical thinking", "Research methods"],
+      "tools": ["Academic journals", "Data analysis tools"],
+      "industries": ["Universities", "Think tanks", "Media schools"],
+      "future": "Growing need for media literacy worldwide.",
+      "challenges": ["Funding issues", "Publishing pressure"],
+      "salary": "Avg. $50k - $120k per year",
+      "learning": ["MA/PhD in Mass Communication"]
+    }
+  },
+  {
+    "id": 91,
+    "icon": "fas fa-film",
+    "title": "Script Writing",
+    "desc": "Write scripts for films, TV, and digital shows.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Scriptwriters create compelling dialogues and stories for media productions.",
+      "skills": ["Creativity", "Storytelling", "Dialogue writing"],
+      "tools": ["Scriptwriting software", "Word processors"],
+      "industries": ["Film", "Television", "Streaming platforms"],
+      "future": "Strong demand in OTT and entertainment industry.",
+      "challenges": ["Creative pressure", "Uncertain success"],
+      "salary": "Avg. $40k - $120k per year",
+      "learning": ["Screenwriting workshops", "Film schools"]
+    }
+  },
+  {
+    "id": 92,
+    "icon": "fas fa-laptop",
+    "title": "Digital Media Management",
+    "desc": "Manage online media platforms and content strategies.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Digital media managers handle online campaigns, websites, and social platforms for organizations.",
+      "skills": ["Social media strategy", "Analytics", "Creativity"],
+      "tools": ["Google Analytics", "Content management systems"],
+      "industries": ["Marketing", "News media", "Corporate firms"],
+      "future": "Rapid growth with digital transformation.",
+      "challenges": ["Constant trend changes", "High competition"],
+      "salary": "Avg. $50k - $110k per year",
+      "learning": ["MBA Digital Media", "Online certifications"]
+    }
+  },
+  {
+    "id": 93,
+    "icon": "fas fa-globe",
+    "title": "International Media Relations",
+    "desc": "Work on cross-border media and communication strategies.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Professionals manage media campaigns and relations at an international level.",
+      "skills": ["Cross-cultural communication", "Negotiation", "Media planning"],
+      "tools": ["Media monitoring", "PR tools"],
+      "industries": ["International organizations", "NGOs", "MNCs"],
+      "future": "High demand with globalization of media.",
+      "challenges": ["Cultural barriers", "Time zone differences"],
+      "salary": "Avg. $70k - $150k per year",
+      "learning": ["MA International Media", "Mass Comm degree"]
+    }
+  },
+  {
+    "id": 94,
+    "icon": "fas fa-pen",
+    "title": "Copywriting",
+    "desc": "Write persuasive ad and marketing copy.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Copywriters create ad texts, taglines, and marketing messages for brands.",
+      "skills": ["Creative writing", "Marketing knowledge", "Persuasion"],
+      "tools": ["Word processors", "Ad design tools"],
+      "industries": ["Advertising agencies", "Corporate marketing"],
+      "future": "High demand with digital advertising.",
+      "challenges": ["Short deadlines", "Client pressure"],
+      "salary": "Avg. $40k - $100k per year",
+      "learning": ["Copywriting courses", "Mass Comm degree"]
+    }
+  },
+  {
+    "id": 95,
+    "icon": "fas fa-video-camera",
+    "title": "Cinematography",
+    "desc": "Specialize in camera work and visual storytelling.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Cinematographers design and capture visuals for films, ads, and shows.",
+      "skills": ["Camera handling", "Lighting", "Composition"],
+      "tools": ["Professional cameras", "Lighting equipment"],
+      "industries": ["Film industry", "Advertising", "Television"],
+      "future": "Growing with demand for video content.",
+      "challenges": ["High cost equipment", "Unpredictable schedules"],
+      "salary": "Avg. $50k - $150k per year",
+      "learning": ["Film schools", "Cinematography courses"]
+    }
+  },
+  {
+    "id": 96,
+    "icon": "fas fa-edit",
+    "title": "Video Editing",
+    "desc": "Edit and produce professional video content.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Video editors cut, arrange, and polish raw footage into finished media products.",
+      "skills": ["Editing software", "Creativity", "Attention to detail"],
+      "tools": ["Adobe Premiere Pro", "Final Cut Pro"],
+      "industries": ["Film", "Television", "Digital media"],
+      "future": "High demand in YouTube and streaming era.",
+      "challenges": ["Time-consuming", "Tight deadlines"],
+      "salary": "Avg. $40k - $100k per year",
+      "learning": ["Video editing courses", "Film schools"]
+    }
+  },
+  {
+    "id": 97,
+    "icon": "fas fa-theater-masks",
+    "title": "Media Production",
+    "desc": "Coordinate and manage production of media projects.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Producers plan, budget, and oversee production of films, shows, and digital content.",
+      "skills": ["Project management", "Leadership", "Budgeting"],
+      "tools": ["Production software", "Scheduling tools"],
+      "industries": ["Cinema", "Television", "Digital streaming"],
+      "future": "Strong demand across OTT and media firms.",
+      "challenges": ["Budget constraints", "High responsibility"],
+      "salary": "Avg. $60k - $150k per year",
+      "learning": ["Film schools", "MBA Media Management"]
+    }
+  },
+  {
+    "id": 98,
+    "icon": "fas fa-drafting-compass",
+    "title": "Graphic Design (Media)",
+    "desc": "Design visuals for media campaigns and publications.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Graphic designers create posters, layouts, and branding material for communication.",
+      "skills": ["Design sense", "Creativity", "Software skills"],
+      "tools": ["Adobe Photoshop", "Illustrator", "Canva"],
+      "industries": ["Advertising", "Publishing", "Corporate media"],
+      "future": "High demand in digital campaigns.",
+      "challenges": ["Client feedback loops", "Creative blocks"],
+      "salary": "Avg. $40k - $90k per year",
+      "learning": ["Design courses", "Mass Comm programs"]
+    }
+  },
+  {
+    "id": 99,
+    "icon": "fas fa-comments",
+    "title": "Corporate Communication",
+    "desc": "Manage communication within organizations.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Corporate communicators design strategies for internal and external messaging of companies.",
+      "skills": ["Writing", "Strategy", "Public speaking"],
+      "tools": ["Email platforms", "Presentation tools"],
+      "industries": ["Corporates", "NGOs", "Consulting firms"],
+      "future": "Rising demand with global corporates.",
+      "challenges": ["Crisis handling", "Employee engagement"],
+      "salary": "Avg. $60k - $120k per year",
+      "learning": ["MBA Communication", "Mass Comm degree"]
+    }
+  },
+  {
+    "id": 100,
+    "icon": "fas fa-search",
+    "title": "Media Research & Analysis",
+    "desc": "Analyze audience behavior and media effectiveness.",
+    "category": "Mass Communication",
+    "details": {
+      "overview": "Media analysts study audiences, trends, and media impact for better communication strategies.",
+      "skills": ["Data analysis", "Critical thinking", "Research methods"],
+      "tools": ["SPSS", "Google Analytics", "Survey tools"],
+      "industries": ["Media firms", "Research agencies", "Academia"],
+      "future": "Growing need for data-driven communication.",
+      "challenges": ["Large data sets", "Changing audience behavior"],
+      "salary": "Avg. $50k - $110k per year",
+      "learning": ["MA Mass Comm", "Media research programs"]
+    }
+  },
+  {
+    "id": 101,
+    "icon": "fas fa-microchip",
+    "title": "Computer Engineering",
+    "desc": "Design and develop computer hardware and software systems.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Computer engineers work on both hardware and software to create computing devices and integrated systems.",
+      "skills": ["Programming", "Electronics", "Problem solving"],
+      "tools": ["Microcontrollers", "Software IDEs", "Chip design tools"],
+      "industries": ["IT", "Electronics", "Telecommunications"],
+      "future": "Strong demand in AI, IoT, and robotics.",
+      "challenges": ["Rapid tech changes", "High competition"],
+      "salary": "Avg. $70k - $150k per year",
+      "learning": ["BSc Computer Engineering", "MS Embedded Systems"]
+    }
+  },
+  {
+    "id": 102,
+    "icon": "fas fa-cogs",
+    "title": "Mechanical Engineering",
+    "desc": "Design machines, engines, and mechanical systems.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Mechanical engineers create and test machinery, from engines to manufacturing tools.",
+      "skills": ["CAD", "Thermodynamics", "Problem solving"],
+      "tools": ["SolidWorks", "AutoCAD", "3D Printers"],
+      "industries": ["Automotive", "Aerospace", "Manufacturing"],
+      "future": "Automation and robotics driving growth.",
+      "challenges": ["Heavy workload", "Safety concerns"],
+      "salary": "Avg. $65k - $130k per year",
+      "learning": ["BSc Mechanical Engineering", "MS Robotics"]
+    }
+  },
+  {
+    "id": 103,
+    "icon": "fas fa-bolt",
+    "title": "Electrical Engineering",
+    "desc": "Work with power systems, circuits, and electronics.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Electrical engineers design and maintain electrical equipment and energy systems.",
+      "skills": ["Circuit design", "Mathematics", "Analytical skills"],
+      "tools": ["Oscilloscopes", "MATLAB", "PCB design tools"],
+      "industries": ["Energy", "Electronics", "Telecom"],
+      "future": "Growing demand in renewable energy and smart grids.",
+      "challenges": ["High responsibility", "Complex problem solving"],
+      "salary": "Avg. $70k - $140k per year",
+      "learning": ["BSc Electrical Engineering", "PE License"]
+    }
+  },
+  {
+    "id": 104,
+    "icon": "fas fa-drafting-compass",
+    "title": "Civil Engineering",
+    "desc": "Plan and construct infrastructure like roads and bridges.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Civil engineers design, build, and maintain public infrastructure projects.",
+      "skills": ["Structural analysis", "Project management", "Mathematics"],
+      "tools": ["AutoCAD", "Surveying equipment", "GIS tools"],
+      "industries": ["Construction", "Urban planning", "Government projects"],
+      "future": "Smart cities and green buildings increasing demand.",
+      "challenges": ["Budget constraints", "Safety risks"],
+      "salary": "Avg. $60k - $120k per year",
+      "learning": ["BSc Civil Engineering", "MS Structural Engineering"]
+    }
+  },
+  {
+    "id": 105,
+    "icon": "fas fa-flask",
+    "title": "Chemical Engineering",
+    "desc": "Develop chemical processes for industries like pharma and energy.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Chemical engineers apply chemistry and engineering to design industrial processes.",
+      "skills": ["Chemistry", "Process design", "Problem solving"],
+      "tools": ["Process simulators", "Lab equipment", "Chemical reactors"],
+      "industries": ["Pharmaceuticals", "Energy", "Food"],
+      "future": "High demand in renewable fuels and biotech.",
+      "challenges": ["Hazardous materials", "Environmental issues"],
+      "salary": "Avg. $70k - $135k per year",
+      "learning": ["BSc Chemical Engineering", "MS Process Engineering"]
+    }
+  },
+  {
+    "id": 106,
+    "icon": "fas fa-industry",
+    "title": "Industrial Engineering",
+    "desc": "Optimize processes, systems, and organizations.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Industrial engineers improve efficiency in manufacturing and business systems.",
+      "skills": ["Data analysis", "Process improvement", "Lean methods"],
+      "tools": ["ERP software", "Simulation tools", "Excel"],
+      "industries": ["Manufacturing", "Logistics", "Healthcare"],
+      "future": "Automation and AI boosting demand.",
+      "challenges": ["Balancing cost and efficiency", "Change resistance"],
+      "salary": "Avg. $65k - $125k per year",
+      "learning": ["BSc Industrial Engineering", "Lean Six Sigma"]
+    }
+  },
+  {
+    "id": 107,
+    "icon": "fas fa-satellite-dish",
+    "title": "Telecommunication Engineering",
+    "desc": "Design and manage communication networks.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Telecom engineers develop and maintain phone, internet, and satellite networks.",
+      "skills": ["Networking", "Electronics", "Signal processing"],
+      "tools": ["Network analyzers", "Simulation software"],
+      "industries": ["Telecom", "IT", "Satellite communication"],
+      "future": "5G and IoT creating new opportunities.",
+      "challenges": ["Rapidly changing tech", "High responsibility"],
+      "salary": "Avg. $70k - $140k per year",
+      "learning": ["BSc Telecom Engineering", "Cisco Certifications"]
+    }
+  },
+  {
+    "id": 108,
+    "icon": "fas fa-robot",
+    "title": "Robotics Engineering",
+    "desc": "Build intelligent machines and automation systems.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Robotics engineers design robots and automation solutions for industries.",
+      "skills": ["Programming", "AI", "Mechanical design"],
+      "tools": ["ROS", "C++/Python", "CAD tools"],
+      "industries": ["Manufacturing", "Healthcare", "Aerospace"],
+      "future": "Growing use in AI-driven robots and automation.",
+      "challenges": ["High R&D costs", "Technical complexity"],
+      "salary": "Avg. $80k - $160k per year",
+      "learning": ["BSc Robotics", "MS AI & Robotics"]
+    }
+  },
+  {
+    "id": 109,
+    "icon": "fas fa-space-shuttle",
+    "title": "Aerospace Engineering",
+    "desc": "Design aircraft, spacecraft, and defense systems.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Aerospace engineers create and test aircraft, satellites, and rockets.",
+      "skills": ["Aerodynamics", "CAD", "Physics"],
+      "tools": ["CATIA", "MATLAB", "Wind tunnels"],
+      "industries": ["Aviation", "Space research", "Defense"],
+      "future": "Commercial space travel expanding opportunities.",
+      "challenges": ["High safety standards", "Costly projects"],
+      "salary": "Avg. $80k - $170k per year",
+      "learning": ["BSc Aerospace Engineering", "MS Aeronautics"]
+    }
+  },
+  {
+    "id": 110,
+    "icon": "fas fa-water",
+    "title": "Environmental Engineering",
+    "desc": "Solve environmental challenges with engineering solutions.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Environmental engineers work on pollution control, waste management, and sustainability.",
+      "skills": ["Environmental science", "Engineering design", "Data analysis"],
+      "tools": ["GIS tools", "Water testing kits", "Modeling software"],
+      "industries": ["Government", "NGOs", "Consulting"],
+      "future": "Rising demand due to climate change policies.",
+      "challenges": ["Field work", "Regulatory hurdles"],
+      "salary": "Avg. $60k - $120k per year",
+      "learning": ["BSc Environmental Engineering", "MS Sustainability"]
+    }
+  },
+  {
+    "id": 111,
+    "icon": "fas fa-microscope",
+    "title": "Biomedical Engineering",
+    "desc": "Create medical devices and healthcare technology.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Biomedical engineers design devices, prosthetics, and software for healthcare.",
+      "skills": ["Biology", "Electronics", "Problem solving"],
+      "tools": ["Medical imaging", "Prototyping tools", "CAD"],
+      "industries": ["Healthcare", "Medical devices", "Research"],
+      "future": "High demand for wearable and AI-driven healthcare tools.",
+      "challenges": ["High R&D cost", "Regulatory approval"],
+      "salary": "Avg. $70k - $140k per year",
+      "learning": ["BSc Biomedical Engineering", "MS Biotech"]
+    }
+  },
+  {
+    "id": 112,
+    "icon": "fas fa-train",
+    "title": "Transportation Engineering",
+    "desc": "Design efficient transportation systems.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Transportation engineers plan and optimize roads, railways, and airports.",
+      "skills": ["Urban planning", "Mathematics", "GIS"],
+      "tools": ["AutoCAD", "Traffic simulation software"],
+      "industries": ["Government", "Construction", "Logistics"],
+      "future": "Smart transportation and autonomous vehicles rising.",
+      "challenges": ["Urban congestion", "Budget limitations"],
+      "salary": "Avg. $60k - $120k per year",
+      "learning": ["BSc Civil/Transportation Engineering"]
+    }
+  },
+  {
+    "id": 113,
+    "icon": "fas fa-solar-panel",
+    "title": "Energy Engineering",
+    "desc": "Develop renewable and traditional energy systems.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Energy engineers design and manage energy systems including solar, wind, and fossil fuels.",
+      "skills": ["Thermodynamics", "Sustainability", "Electrical systems"],
+      "tools": ["Energy simulators", "CAD software"],
+      "industries": ["Renewable energy", "Oil & Gas", "Utilities"],
+      "future": "High demand for renewable energy experts.",
+      "challenges": ["High project cost", "Regulatory policies"],
+      "salary": "Avg. $70k - $140k per year",
+      "learning": ["BSc Energy Engineering", "MS Renewable Energy"]
+    }
+  },
+  {
+    "id": 114,
+    "icon": "fas fa-building",
+    "title": "Architectural Engineering",
+    "desc": "Blend architecture with engineering to design buildings.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Architectural engineers focus on the structural, electrical, and mechanical aspects of buildings.",
+      "skills": ["Architecture", "Construction design", "Sustainability"],
+      "tools": ["AutoCAD", "Revit", "SketchUp"],
+      "industries": ["Construction", "Urban planning", "Real estate"],
+      "future": "Smart homes and green buildings increasing demand.",
+      "challenges": ["High cost projects", "Balancing design and safety"],
+      "salary": "Avg. $65k - $130k per year",
+      "learning": ["BSc Architectural Engineering"]
+    }
+  },
+  {
+    "id": 115,
+    "icon": "fas fa-dna",
+    "title": "Genetic Engineering",
+    "desc": "Modify genes for medicine, agriculture, and biotech.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Genetic engineers research and apply techniques to alter DNA for human, plant, or animal benefits.",
+      "skills": ["Biology", "Lab techniques", "Research"],
+      "tools": ["CRISPR", "PCR machines", "Lab equipment"],
+      "industries": ["Biotechnology", "Pharma", "Agriculture"],
+      "future": "Gene therapy and GMOs driving growth.",
+      "challenges": ["Ethical issues", "Regulatory challenges"],
+      "salary": "Avg. $75k - $150k per year",
+      "learning": ["BSc Biotech/Genetic Engineering", "MS Genomics"]
+    }
+  },
+  {
+    "id": 116,
+    "icon": "fas fa-oil-can",
+    "title": "Petroleum Engineering",
+    "desc": "Extract and refine oil and natural gas.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Petroleum engineers design methods to extract oil and gas efficiently.",
+      "skills": ["Geology", "Mathematics", "Problem solving"],
+      "tools": ["Drilling equipment", "Reservoir simulation software"],
+      "industries": ["Oil & Gas", "Energy"],
+      "future": "Transitioning towards sustainable fuels.",
+      "challenges": ["Environmental concerns", "Economic volatility"],
+      "salary": "Avg. $90k - $180k per year",
+      "learning": ["BSc Petroleum Engineering"]
+    }
+  },
+  {
+    "id": 117,
+    "icon": "fas fa-hard-hat",
+    "title": "Construction Engineering",
+    "desc": "Plan and manage construction projects.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Construction engineers combine civil engineering and project management for buildings and infrastructure.",
+      "skills": ["Project management", "Budgeting", "Engineering design"],
+      "tools": ["AutoCAD", "MS Project", "Survey tools"],
+      "industries": ["Construction", "Real estate", "Government"],
+      "future": "Urbanization and smart city projects growing.",
+      "challenges": ["Budget delays", "Safety risks"],
+      "salary": "Avg. $65k - $125k per year",
+      "learning": ["BSc Construction Engineering"]
+    }
+  },
+  {
+    "id": 118,
+    "icon": "fas fa-vial",
+    "title": "Materials Engineering",
+    "desc": "Develop and test new materials for industries.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Materials engineers work on metals, plastics, ceramics, and composites for various applications.",
+      "skills": ["Chemistry", "Physics", "Research"],
+      "tools": ["Lab testing tools", "Microscopes", "Simulation software"],
+      "industries": ["Aerospace", "Automotive", "Manufacturing"],
+      "future": "High-tech materials for EVs and space travel.",
+      "challenges": ["Expensive R&D", "Market acceptance"],
+      "salary": "Avg. $70k - $140k per year",
+      "learning": ["BSc Materials Engineering"]
+    }
+  },
+  {
+    "id": 119,
+    "icon": "fas fa-sitemap",
+    "title": "Systems Engineering",
+    "desc": "Integrate complex projects and ensure efficiency.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Systems engineers oversee large projects ensuring all components work together.",
+      "skills": ["Systems design", "Project management", "Problem solving"],
+      "tools": ["Modeling software", "Enterprise tools"],
+      "industries": ["Aerospace", "Defense", "IT"],
+      "future": "High demand in AI and large-scale projects.",
+      "challenges": ["Complex coordination", "Risk management"],
+      "salary": "Avg. $80k - $160k per year",
+      "learning": ["BSc Systems Engineering"]
+    }
+  },
+  {
+    "id": 120,
+    "icon": "fas fa-cloud",
+    "title": "Software Engineering",
+    "desc": "Design, develop, and maintain software applications.",
+    "category": "Engineering",
+    "details": {
+      "overview": "Software engineers create programs and systems for computers and digital devices.",
+      "skills": ["Programming", "Problem solving", "Algorithms"],
+      "tools": ["IDEs", "Version control", "Testing tools"],
+      "industries": ["IT", "Finance", "Healthcare"],
+      "future": "Massive demand in AI, web, and cloud computing.",
+      "challenges": ["Fast-changing tech", "High pressure deadlines"],
+      "salary": "Avg. $80k - $160k per year",
+      "learning": ["BSc Software Engineering", "Coding bootcamps"]
+    }
+  },
+
+  {
+    "id": 121,
+    "icon": "fas fa-paint-brush",
+    "title": "Fine Arts",
+    "desc": "Create traditional artworks like paintings and sculptures.",
+    "category": "Arts",
+    "details": {
+      "overview": "Fine artists express creativity through mediums like painting, sculpture, and drawing.",
+      "skills": ["Creativity", "Sketching", "Color theory"],
+      "tools": ["Brushes", "Canvas", "Sculpting tools"],
+      "industries": ["Art galleries", "Museums", "Freelance"],
+      "future": "Growing demand in digital art marketplaces.",
+      "challenges": ["Unstable income", "High competition"],
+      "salary": "Varies widely ($20k - $100k+ per year)",
+      "learning": ["BFA (Fine Arts)", "Workshops", "Art residencies"]
+    }
+  },
+  {
+    "id": 122,
+    "icon": "fas fa-drafting-compass",
+    "title": "Graphic Design",
+    "desc": "Design visual content for print and digital platforms.",
+    "category": "Arts",
+    "details": {
+      "overview": "Graphic designers create branding, marketing, and communication visuals.",
+      "skills": ["Typography", "Creativity", "Software proficiency"],
+      "tools": ["Adobe Photoshop", "Illustrator", "Figma"],
+      "industries": ["Advertising", "Media", "Freelance"],
+      "future": "High demand in digital marketing and branding.",
+      "challenges": ["Tight deadlines", "Creative burnout"],
+      "salary": "Avg. $40k - $90k per year",
+      "learning": ["BFA Graphic Design", "Online design courses"]
+    }
+  },
+  {
+    "id": 123,
+    "icon": "fas fa-user-edit",
+    "title": "Fashion Design",
+    "desc": "Create clothing, accessories, and fashion trends.",
+    "category": "Arts",
+    "details": {
+      "overview": "Fashion designers design and produce clothing lines and accessories.",
+      "skills": ["Sketching", "Sewing", "Trend forecasting"],
+      "tools": ["Sewing machines", "Design software"],
+      "industries": ["Fashion houses", "Retail", "Freelance"],
+      "future": "Sustainable and digital fashion are booming.",
+      "challenges": ["Fast-changing trends", "High competition"],
+      "salary": "Avg. $50k - $120k per year",
+      "learning": ["BFA Fashion Design", "Fashion schools"]
+    }
+  },
+  {
+    "id": 124,
+    "icon": "fas fa-camera",
+    "title": "Photography",
+    "desc": "Capture and edit photographs for art or commercial use.",
+    "category": "Arts",
+    "details": {
+      "overview": "Photographers work in creative, commercial, or journalistic fields.",
+      "skills": ["Composition", "Lighting", "Editing"],
+      "tools": ["Cameras", "Lenses", "Editing software"],
+      "industries": ["Media", "Freelance", "Advertising"],
+      "future": "High demand for digital and social media content.",
+      "challenges": ["Expensive equipment", "Unstable income"],
+      "salary": "Avg. $30k - $100k per year",
+      "learning": ["Diploma in Photography", "Online courses"]
+    }
+  },
+  {
+    "id": 125,
+    "icon": "fas fa-film",
+    "title": "Film & Animation",
+    "desc": "Create movies, cartoons, and animated visuals.",
+    "category": "Arts",
+    "details": {
+      "overview": "Film and animation professionals create entertainment and educational content.",
+      "skills": ["Storyboarding", "Animation", "Editing"],
+      "tools": ["Maya", "Blender", "Adobe After Effects"],
+      "industries": ["Film studios", "TV", "Streaming platforms"],
+      "future": "Animation and VFX industries growing globally.",
+      "challenges": ["Long production times", "Team collaboration"],
+      "salary": "Avg. $50k - $150k per year",
+      "learning": ["BFA Animation", "Film schools"]
+    }
+  },
+  {
+    "id": 126,
+    "icon": "fas fa-music",
+    "title": "Music & Performing Arts",
+    "desc": "Perform or create music, dance, or theatre productions.",
+    "category": "Arts",
+    "details": {
+      "overview": "Performing artists entertain and inspire through music, dance, and theatre.",
+      "skills": ["Performance", "Creativity", "Teamwork"],
+      "tools": ["Instruments", "Stage equipment", "Voice"],
+      "industries": ["Theatre", "Concerts", "Film"],
+      "future": "High demand in entertainment and events.",
+      "challenges": ["Unstable career path", "Performance pressure"],
+      "salary": "Varies widely ($25k - $200k+ per year)",
+      "learning": ["BA Performing Arts", "Music schools"]
+    }
+  },
+  {
+    "id": 127,
+    "icon": "fas fa-gem",
+    "title": "Jewelry Design",
+    "desc": "Design creative jewelry pieces for fashion and luxury markets.",
+    "category": "Arts",
+    "details": {
+      "overview": "Jewelry designers craft ornaments using metals, gems, and modern materials.",
+      "skills": ["Creativity", "Craftsmanship", "CAD design"],
+      "tools": ["Jewelry CAD software", "Crafting tools"],
+      "industries": ["Fashion", "Luxury brands", "Freelance"],
+      "future": "Rising demand for custom and sustainable jewelry.",
+      "challenges": ["High material cost", "Market competition"],
+      "salary": "Avg. $40k - $100k per year",
+      "learning": ["Diploma in Jewelry Design", "Apprenticeships"]
+    }
+  },
+  {
+    "id": 128,
+    "icon": "fas fa-pen-nib",
+    "title": "Calligraphy & Typography",
+    "desc": "Create artistic lettering for design and branding.",
+    "category": "Arts",
+    "details": {
+      "overview": "Calligraphers and typographers design fonts and decorative lettering.",
+      "skills": ["Hand lettering", "Design software", "Creativity"],
+      "tools": ["Brush pens", "Illustrator", "Design tablets"],
+      "industries": ["Publishing", "Branding", "Advertising"],
+      "future": "Popular in digital design and custom branding.",
+      "challenges": ["Niche career path", "High skill requirement"],
+      "salary": "Avg. $30k - $90k per year",
+      "learning": ["Workshops", "Design schools"]
+    }
+  },
+  {
+    "id": 129,
+    "icon": "fas fa-pen-fancy",
+    "title": "Illustration",
+    "desc": "Draw visuals for books, ads, and digital media.",
+    "category": "Arts",
+    "details": {
+      "overview": "Illustrators create drawings and artworks for publications and digital products.",
+      "skills": ["Drawing", "Creativity", "Digital art"],
+      "tools": ["Procreate", "Illustrator", "Photoshop"],
+      "industries": ["Publishing", "Advertising", "Gaming"],
+      "future": "High demand in children’s books and online media.",
+      "challenges": ["Freelance competition", "Client revisions"],
+      "salary": "Avg. $35k - $100k per year",
+      "learning": ["BFA Illustration", "Online art courses"]
+    }
+  },
+  {
+    "id": 130,
+    "icon": "fas fa-archway",
+    "title": "Interior Design",
+    "desc": "Plan and design indoor spaces for aesthetics and function.",
+    "category": "Arts",
+    "details": {
+      "overview": "Interior designers plan layouts, colors, and decor for homes and offices.",
+      "skills": ["Creativity", "Space planning", "3D design"],
+      "tools": ["AutoCAD", "SketchUp", "Revit"],
+      "industries": ["Real estate", "Architecture", "Freelance"],
+      "future": "Sustainable and smart interiors rising in demand.",
+      "challenges": ["Budget constraints", "Client demands"],
+      "salary": "Avg. $45k - $110k per year",
+      "learning": ["BSc Interior Design", "Diploma programs"]
+    }
+  },
+  {
+    "id": 131,
+    "icon": "fas fa-drum",
+    "title": "Performing Arts (Drama & Theatre)",
+    "desc": "Act and perform in theatre and stage productions.",
+    "category": "Arts",
+    "details": {
+      "overview": "Actors and theatre artists perform live shows for entertainment and education.",
+      "skills": ["Acting", "Voice modulation", "Stage presence"],
+      "tools": ["Stage props", "Lighting", "Costumes"],
+      "industries": ["Theatre", "Film", "TV"],
+      "future": "Growing with independent productions and streaming.",
+      "challenges": ["High competition", "Unstable income"],
+      "salary": "Avg. $25k - $100k+ per year",
+      "learning": ["Drama schools", "Performing arts degrees"]
+    }
+  },
+  {
+    "id": 132,
+    "icon": "fas fa-brush",
+    "title": "Makeup & Cosmetology",
+    "desc": "Work on beauty, cosmetics, and professional makeup.",
+    "category": "Arts",
+    "details": {
+      "overview": "Cosmetologists and makeup artists create looks for fashion, film, and events.",
+      "skills": ["Creativity", "Beauty knowledge", "Precision"],
+      "tools": ["Makeup kits", "Brushes", "Cosmetics"],
+      "industries": ["Fashion", "Film", "Bridal services"],
+      "future": "High demand in entertainment and beauty industry.",
+      "challenges": ["Long working hours", "Changing trends"],
+      "salary": "Avg. $30k - $90k per year",
+      "learning": ["Diploma in Cosmetology", "Workshops"]
+    }
+  },
+  {
+    "id": 133,
+    "icon": "fas fa-clone",
+    "title": "Printmaking",
+    "desc": "Create art through print and reproduction techniques.",
+    "category": "Arts",
+    "details": {
+      "overview": "Printmakers design prints on paper, fabric, and other materials using specialized techniques.",
+      "skills": ["Drawing", "Print techniques", "Creativity"],
+      "tools": ["Printing press", "Ink", "Carving tools"],
+      "industries": ["Publishing", "Fashion", "Art galleries"],
+      "future": "Custom print design market growing.",
+      "challenges": ["Manual labor", "Limited demand"],
+      "salary": "Avg. $25k - $70k per year",
+      "learning": ["BFA Printmaking", "Apprenticeships"]
+    }
+  },
+  {
+    "id": 134,
+    "icon": "fas fa-gamepad",
+    "title": "Game Art & Design",
+    "desc": "Design characters and environments for video games.",
+    "category": "Arts",
+    "details": {
+      "overview": "Game artists and designers create visual assets and levels for gaming experiences.",
+      "skills": ["3D modeling", "Creativity", "Animation"],
+      "tools": ["Unity", "Unreal Engine", "Blender"],
+      "industries": ["Gaming", "Animation", "AR/VR"],
+      "future": "Gaming industry is booming worldwide.",
+      "challenges": ["High pressure", "Long hours"],
+      "salary": "Avg. $60k - $140k per year",
+      "learning": ["Game design courses", "BFA Digital Arts"]
+    }
+  },
+  {
+    "id": 135,
+    "icon": "fas fa-lightbulb",
+    "title": "Creative Direction",
+    "desc": "Lead creative projects and visual storytelling.",
+    "category": "Arts",
+    "details": {
+      "overview": "Creative directors manage and guide the vision for brands and campaigns.",
+      "skills": ["Leadership", "Design sense", "Marketing"],
+      "tools": ["Adobe Suite", "Presentation tools"],
+      "industries": ["Advertising", "Film", "Fashion"],
+      "future": "High demand in branding and entertainment.",
+      "challenges": ["Pressure of leadership", "Tight deadlines"],
+      "salary": "Avg. $80k - $200k per year",
+      "learning": ["BFA/MFA Arts", "Design schools"]
+    }
+  },
+  {
+    "id": 136,
+    "icon": "fas fa-pen-alt",
+    "title": "Creative Writing",
+    "desc": "Write novels, poetry, scripts, and storytelling content.",
+    "category": "Arts",
+    "details": {
+      "overview": "Creative writers craft original written works for entertainment and education.",
+      "skills": ["Writing", "Imagination", "Editing"],
+      "tools": ["Word processors", "Writing apps"],
+      "industries": ["Publishing", "Film", "Media"],
+      "future": "High demand in content and entertainment sectors.",
+      "challenges": ["Unstable income", "Writer’s block"],
+      "salary": "Varies ($20k - $100k+ per year)",
+      "learning": ["BA Creative Writing", "Workshops"]
+    }
+  },
+  {
+    "id": 137,
+    "icon": "fas fa-dice-d20",
+    "title": "Set & Exhibition Design",
+    "desc": "Design sets for film, theatre, and exhibitions.",
+    "category": "Arts",
+    "details": {
+      "overview": "Set designers create environments for productions and exhibitions.",
+      "skills": ["Creativity", "3D design", "Spatial awareness"],
+      "tools": ["SketchUp", "AutoCAD", "Stage props"],
+      "industries": ["Film", "Theatre", "Museums"],
+      "future": "Rising demand in events and entertainment.",
+      "challenges": ["High budget needs", "Time pressure"],
+      "salary": "Avg. $45k - $110k per year",
+      "learning": ["Design schools", "BFA Set Design"]
+    }
+  },
+  {
+    "id": 138,
+    "icon": "fas fa-shapes",
+    "title": "Sculpture",
+    "desc": "Create 3D artworks from materials like stone, clay, or metal.",
+    "category": "Arts",
+    "details": {
+      "overview": "Sculptors make artistic and commercial sculptures for galleries and public spaces.",
+      "skills": ["Craftsmanship", "3D design", "Creativity"],
+      "tools": ["Chisels", "Clay", "Casting tools"],
+      "industries": ["Art galleries", "Architecture", "Freelance"],
+      "future": "Growing demand in public art installations.",
+      "challenges": ["Physical effort", "Expensive materials"],
+      "salary": "Avg. $25k - $90k per year",
+      "learning": ["BFA Sculpture", "Art workshops"]
+    }
+  },
+  {
+    "id": 139,
+    "icon": "fas fa-ruler-combined",
+    "title": "Product Design",
+    "desc": "Design functional and aesthetic consumer products.",
+    "category": "Arts",
+    "details": {
+      "overview": "Product designers create innovative and user-friendly items for everyday use.",
+      "skills": ["Creativity", "CAD", "Problem solving"],
+      "tools": ["AutoCAD", "SolidWorks", "Prototyping tools"],
+      "industries": ["Manufacturing", "Tech", "Retail"],
+      "future": "Rising demand for sustainable and smart products.",
+      "challenges": ["Balancing function and beauty", "Market competition"],
+      "salary": "Avg. $60k - $130k per year",
+      "learning": ["BSc Product Design", "Industrial design programs"]
+    }
+  },
+  {
+    "id": 140,
+    "icon": "fas fa-clipboard-list",
+    "title": "Art Curation",
+    "desc": "Manage and curate exhibitions for galleries and museums.",
+    "category": "Arts",
+    "details": {
+      "overview": "Art curators organize and manage collections and exhibitions for cultural institutions.",
+      "skills": ["Art history", "Research", "Organization"],
+      "tools": ["Databases", "Cataloging tools"],
+      "industries": ["Museums", "Art galleries", "Cultural centers"],
+      "future": "High demand in global art markets.",
+      "challenges": ["Limited jobs", "Funding issues"],
+      "salary": "Avg. $45k - $110k per year",
+      "learning": ["MA Art History", "Museum studies"]
+    }
+  }
+]
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+{
+  "mentors": [
+    {
+      "name": "Dr. Anjali Sharma",
+      "photo": "mentor1.jpg",
+      "videoUrl": "vedio1.mp4",
+      "experience": "10+ Years",
+      "rating": "4.9",
+      "students": "2.5K",
+      "description": "Veterinary Surgeon with passion for animal welfare. Offers complete pet care guidance."
+    },
+    {
+      "name": "Rahul Verma",
+      "photo": "mentor2.jpg",
+      "videoUrl": "vedio2.mp4",
+      "experience": "7+ Years",
+      "rating": "4.7",
+      "students": "1.8K",
+      "description": "Specialist in dog & cat grooming. Provides training on professional grooming techniques."
+    },
+    {
+      "name": "Sneha Kapoor",
+      "photo": "mentor3.jpg",
+      "videoUrl": "vedio3.mp4",
+      "experience": "5+ Years",
+      "rating": "4.8",
+      "students": "3K",
+      "description": "Animal Behaviorist helping pet owners understand animal behavior and teaching training techniques."
+    }
+  ]
+}

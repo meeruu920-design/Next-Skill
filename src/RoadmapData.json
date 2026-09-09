@@ -1,0 +1,198 @@
+{
+  "commonSteps": [
+    "Start with self-assessment: strengths, interests, and goals."
+  ],
+  "fields": {
+    "arts": {
+      "careers": [
+        "Graphic Designer",
+        "Animator",
+        "Illustrator",
+        "Fashion Designer",
+        "Interior Designer",
+        "Photographer",
+        "Film Director",
+        "Actor/Actress",
+        "Choreographer",
+        "Music Composer",
+        "Painter",
+        "Sculptor",
+        "Writer/Author",
+        "Poet",
+        "Art Teacher",
+        "Art Therapist",
+        "Makeup Artist",
+        "Content Creator (Art/Design)",
+        "Calligrapher",
+        "Digital Media Specialist"
+      ],
+      "job": [
+        "Build a strong portfolio to showcase your work.",
+        "Pursue internships or apprenticeships in your selected field.",
+        "Apply for entry-level roles in studios, agencies, or online platforms.",
+        "Learn latest tools/software relevant to your field.",
+        "Network with industry professionals and attend workshops.",
+        "Keep updating your skills and portfolio regularly."
+      ]
+    },
+    "medical": {
+      "careers": [
+        "Doctor (MBBS)",
+        "Dentist (BDS)",
+        "Nurse",
+        "Physiotherapist",
+        "Pharmacist",
+        "Lab Technician",
+        "Radiologist",
+        "Surgeon",
+        "Optometrist",
+        "Nutritionist",
+        "Clinical Psychologist",
+        "Veterinarian",
+        "Medical Researcher",
+        "Anesthetist",
+        "Medical Transcriptionist",
+        "Occupational Therapist",
+        "Speech Therapist",
+        "Paramedic",
+        "Medical Sales Executive",
+        "Biomedical Engineer"
+      ],
+      "job": [
+        "Complete the required medical degree or certification.",
+        "Do internships or rotations to gain practical experience.",
+        "Obtain licensing/registration required in your country.",
+        "Apply for hospital or clinic roles.",
+        "Consider postgraduate specialization or short courses.",
+        "Keep learning through CPD courses and professional networks."
+      ]
+    },
+    "engineering": {
+      "careers": [
+        "Mechanical Engineer",
+        "Civil Engineer",
+        "Electrical Engineer",
+        "Electronics Engineer",
+        "Computer Engineer",
+        "Software Developer",
+        "Data Engineer",
+        "Network Engineer",
+        "Robotics Engineer",
+        "Chemical Engineer",
+        "Aerospace Engineer",
+        "Industrial Engineer",
+        "Environmental Engineer",
+        "Petroleum Engineer",
+        "Structural Engineer",
+        "Automobile Engineer",
+        "Biomedical Engineer",
+        "Project Engineer",
+        "Quality Assurance Engineer",
+        "Technical Consultant"
+      ],
+      "job": [
+        "Complete engineering degree or diploma in relevant branch.",
+        "Build practical projects and portfolio (GitHub, prototypes).",
+        "Do internships/co-ops to gain exposure.",
+        "Apply for entry-level engineering roles.",
+        "Get certifications if needed (PLC, CAD, Data tools).",
+        "Keep learning for higher roles or specialist certifications."
+      ]
+    },
+    "mass_communication": {
+      "careers": [
+        "Journalist",
+        "News Anchor",
+        "Radio Jockey",
+        "PR Executive",
+        "Social Media Manager",
+        "Content Writer",
+        "Film Editor",
+        "Video Producer",
+        "Advertising Executive",
+        "Copywriter",
+        "Media Planner",
+        "Event Manager",
+        "Photographer",
+        "Documentary Filmmaker",
+        "Voice-over Artist",
+        "Digital Marketing Specialist",
+        "Broadcast Technician",
+        "Screenwriter",
+        "Podcaster",
+        "Animator"
+      ],
+      "job": [
+        "Get degree/diploma in mass communication or journalism.",
+        "Create portfolio or demo reel.",
+        "Intern in media houses, radio, TV, or digital agencies.",
+        "Apply for entry-level roles in journalism, PR, or media.",
+        "Keep building skills in content, editing, or production.",
+        "Network with professionals and attend workshops."
+      ]
+    },
+    "commerce": {
+      "careers": [
+        "Accountant",
+        "Financial Analyst",
+        "Auditor",
+        "Bank Officer",
+        "Tax Consultant",
+        "Investment Banker",
+        "Business Analyst",
+        "Entrepreneur",
+        "Marketing Executive",
+        "HR Executive",
+        "Logistics Manager",
+        "Stock Broker",
+        "Insurance Agent",
+        "Retail Manager",
+        "Payroll Manager",
+        "Supply Chain Analyst",
+        "Finance Manager",
+        "E-commerce Specialist",
+        "Credit Analyst",
+        "Consultant"
+      ],
+      "job": [
+        "Study commerce subjects (BCom, accounting diplomas).",
+        "Gain practical experience via internships.",
+        "Apply for finance, accounting, or business roles.",
+        "Take certifications if required (tax, bookkeeping, CFA).",
+        "Develop Excel and accounting software skills.",
+        "Network and stay updated on market trends."
+      ]
+    },
+    "default": {
+      "careers": [
+        "Choose a field based on interest",
+        "Research available career paths",
+        "Explore internships or shadow professionals"
+      ],
+      "job": [
+        "Research the field: learn common roles and qualifications.",
+        "Take a short course or certificate to test interest.",
+        "Build a small project or portfolio relevant to the field.",
+        "Apply for internships or entry-level jobs.",
+        "Continue upskilling and networking.",
+        "Seek mentorship in the field."
+      ]
+    }
+  },
+  "educationModifiers": {
+    "highschool": "Focus on exploratory courses and entrance exams.",
+    "intermediate": "Try diplomas or foundation courses bridging to your field.",
+    "bachelor": "Do internships and certifications to strengthen employability.",
+    "master": "Consider research, managerial, or specialized tracks."
+  },
+  "incomeModifiers": {
+    "low": "Use free online courses, scholarships, and low-cost internships.",
+    "medium": "Invest in skill-based certifications or bootcamps.",
+    "high": "Go for premium certifications, mentorship, or advanced courses."
+  },
+  "locationTips": {
+    "urban": "Leverage local universities, workshops, internships, and networking events.",
+    "rural": "Focus on online learning, remote internships, or relocation opportunities.",
+    "abroad": "Research local accreditation, laws, and international job market standards."
+  }
+}

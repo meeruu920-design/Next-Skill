@@ -1,0 +1,237 @@
+:root {
+  --primary-color: #2B2E3D;
+  --secondary-color: #5A5D75;
+  --accent-color: #9D586B;
+  --light-accent: #977D8D;
+  --text-color: #FFFFFF;
+  --hover-color: #8C8B95;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background: rgba(32, 37, 54, 0.747); /* semi-transparent for glass effect */
+  backdrop-filter: blur(10px); /* glass blur */
+  color: var(--text-color);
+  padding: 0.3rem 2rem; /* reduced height */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Logo Styles */
+.navbar-logo a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  padding: 0.5rem 0;
+}
+
+.navbar-logo a:hover {
+  color: var(--light-accent);
+  transform: translateY(-2px);
+}
+
+/* Desktop Navigation */
+.nav-content {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  padding: 0;
+  margin-left: 180px;
+}
+
+.nav-items a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  position: relative;
+  padding: 0.5rem 0;
+  transition: all 0.3s ease;
+}
+
+.nav-items a::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--accent-color);
+  transition: width 0.3s ease;
+}
+
+.nav-items a:hover {
+  color: var(--light-accent);
+}
+
+.nav-items a:hover::before {
+  width: 100%;
+}
+
+/* Right side buttons */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-button {
+  background: linear-gradient(135deg, #9D586B, #977D8D); /* gradient colors */
+  color: white;
+  padding: 0.5rem 1.5rem; /* smaller height for button */
+  border-radius: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.nav-button:hover {
+  background: linear-gradient(135deg, #977D8D, #9D586B); /* reverse gradient on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(157, 88, 107, 0.3);
+}
+
+
+
+/* Hamburger menu */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease;
+  background-color: var(--text-color);
+}
+
+/* Responsive Design (Tablet + Laptop also) */
+@media (max-width: 1200px) {
+  .navbar {
+    padding: 1rem;
+    position: sticky;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-content {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 6rem 2rem 2rem;
+    transition: 0.3s;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    gap: 2rem;
+  }
+
+  .nav-items {
+    width: 100%;
+  }
+
+  .nav-items ul {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-left: 0;
+  }
+
+  .nav-actions {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--secondary-color);
+  }
+
+  .nav-content.active {
+    left: 0;
+  }
+
+  .navbar-logo {
+    z-index: 1000;
+  }
+}
+
+/* Active state styles */
+.nav-items a.active {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+.nav-items a.active::before {
+  width: 100%;
+  background-color: var(--accent-color);
+}
+
+.nav-button.active {
+  background-color: var(--light-accent);
+  box-shadow: 0 4px 12px rgba(157, 88, 107, 0.3);
+}
+
+/* Mobile/Tablet Active state */
+@media (max-width: 1200px) {
+  .nav-items a.active {
+    border-left: 3px solid var(--accent-color);
+    padding-left: 1rem;
+  }
+  
+  .nav-items a.active::before {
+    width: 0;
+  }
+}/* Optional: make navbar slightly smaller on mobile too */
+@media (max-width: 1200px) {
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  .nav-button {
+    padding: 0.4rem 1.2rem;
+    font-size: 0.95rem;
+  }
+}

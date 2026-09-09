@@ -1,0 +1,198 @@
+/* Page Container */
+.auth-page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #2B2E3D;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Animated Cubes Background */
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 1;
+  perspective: 1000px;
+}
+
+.cube {
+  position: absolute;
+  width: 40px;               /* ⬅ Thoda bada size */
+  height: 40px;              /* ⬅ Thoda bada size */
+  background: transparent;
+  border: 4px solid #9D586B; /* ⬅ Thicker border */
+  transform-style: preserve-3d;
+  animation: floatCube 12s infinite linear;
+  opacity: 0.6;
+}
+
+.cube:nth-child(3n) { border-color: #5A5D75; }
+.cube:nth-child(4n) { border-color: #977D8D; opacity: 0.4; }
+
+/* Cube positions & delays */
+.cube:nth-child(1) { top: 10%; left: 15%; animation-delay: 0s; }
+.cube:nth-child(2) { top: 25%; left: 80%; animation-delay: 2s; }
+.cube:nth-child(3) { top: 40%; left: 50%; animation-delay: 4s; }
+.cube:nth-child(4) { top: 70%; left: 20%; animation-delay: 6s; }
+.cube:nth-child(5) { top: 85%; left: 75%; animation-delay: 1s; }
+.cube:nth-child(6) { top: 15%; left: 90%; animation-delay: 3s; }
+.cube:nth-child(7) { top: 55%; left: 10%; animation-delay: 5s; }
+.cube:nth-child(8) { top: 60%; left: 60%; animation-delay: 7s; }
+.cube:nth-child(9) { top: 35%; left: 30%; animation-delay: 9s; }
+.cube:nth-child(10){ top: 80%; left: 45%; animation-delay: 11s; }
+
+@keyframes floatCube {
+  0% { transform: translateY(0) rotateX(0deg) rotateY(0deg) scale(1); opacity:0.7; }
+  50% { transform: translateY(-120px) rotateX(180deg) rotateY(180deg) scale(1.2); opacity:1; }
+  100% { transform: translateY(0) rotateX(360deg) rotateY(360deg) scale(1); opacity:0.7; }
+}
+
+/* Auth Box */
+.auth-box {
+  position: relative;
+  z-index: 10;
+  background: #171922;
+  padding: 40px;
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.auth-box h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  background: linear-gradient(90deg, #9D586B, #977D8D, #5A5D75);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.auth-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-box input {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  background:rgba(23, 25, 34, 0.85) ;
+  box-shadow: 0px 0px 10px white;
+  color: #fff;
+}
+/* Glow on hover & focus */
+.auth-box input:hover,
+.auth-box input:focus {
+  box-shadow: 10px 10px 10px rgba(157, 88, 107, 0.8);
+  background: rgba(23, 25, 34, 1);
+  border: 1px solid #9D586B;
+}
+.auth-box input::placeholder {
+  color: #ddd;
+}
+
+.auth-box button {
+  padding: 12px;
+  background: linear-gradient(90deg, #9D586B, #977D8D);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auth-box button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+.auth-box p {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+.auth-box a {
+  color: #977D8D;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .auth-box {
+    padding: 30px 20px;
+    width: 90%;
+  }
+
+  .auth-box h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
+/* ... previous CSS remains ... */
+
+/* Animated Cubes on sides only */
+.side-cube {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 4px solid #9D586B;
+  transform-style: preserve-3d;
+  animation: floatCube 12s infinite linear;
+  opacity: 0.6;
+}
+
+/* Random positions for side cubes */
+.side-cube:nth-child(n) {
+  top: calc(5% + 90% * var(--random-top)); /* random top */
+  left: calc(var(--side) * 100%);          /* left or right side */
+}
+
+/* Using inline style in JSX for randomization */
+.side-cube:nth-child(n) {
+  --random-top: calc(var(--i) / 30);
+  --side: calc(var(--i) % 2); /* 0 = left, 1 = right */
+}
+
+/* Make sure form stays on top */
+.auth-box {
+  position: relative;
+  z-index: 10;
+}
+
+/* Optional: More cubes color variations */
+.side-cube:nth-child(3n) { border-color: #5A5D75; }
+.side-cube:nth-child(4n) { border-color: #977D8D; opacity: 0.4; }
+
+
+
+.auth-logo {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.auth-slogan {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #ddd;
+  margin-bottom: 15px;
+}
