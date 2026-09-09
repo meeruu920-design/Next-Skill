@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Roadmap.css";
-import roadmapData from "./roadmapData.json";
+import roadmapData from "./RoadmapData.json";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
